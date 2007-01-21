@@ -1,0 +1,20 @@
+### K7Z 0.5: Profile
+
+# Type
+Archive_Format = 7-Zip
+Creation_Method = Sync
+Compression_Level = Fast
+Volume_Size = Unlimited
+SFX = No
+Solid = No
+Tarball = No
+
+# Security
+Scramble = No
+Password = No
+
+# Destination
+Destination = Yes
+Structured = Yes
+Destination_Dir =
+Archive_Name = No

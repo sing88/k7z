@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo ""
+echo "Creating a Slackware package using 'CheckInstall'.  Please enter the 'root' password:"
+echo ""
+
+su -c "checkinstall -S -y --exclude=/selinux,/selinux/context --fstrans=no --nodoc --install=yes --backup=no --pakdir='../Package/' --spec='K7Z-Slackware.spec' --delspec=no --deldesc=yes"
+#su -c "make uninstall"
+
+echo ""
+echo "Finished creating a Slackware package.  It has been installed and is located in '../Package/'."
+echo ""

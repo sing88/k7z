@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=K7Z
+GenericName=Basic Archiver
+Comment=KDE Menu entry for K7Z
+#Version=0.2
+Type=Application
+#Categories=File
+Terminal=false
+Encoding=UTF-8
+Icon=K7Z
+Exec=K7Z.pyw
+#Exec=K7Z.pyw %i %m -caption "%c"
+#ServiceTypes=inode/directory
+#Actions=Create;
+#X-KDE-Submenu=K7Z
+#X-KDE-Priority=TopLevel
+#X-KDE-Icon=tgz
+X-KDE-StartupNotify=true

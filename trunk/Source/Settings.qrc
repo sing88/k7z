@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/actions" >
+        <file>Images/actions/button_cancel.png</file>
+        <file>Images/actions/button_ok.png</file>
+    </qresource>
+    <qresource prefix="/apps" >
+        <file>Images/apps/K7Z.png</file>
+    </qresource>
+</RCC>

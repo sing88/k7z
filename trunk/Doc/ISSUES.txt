@@ -1,0 +1,21 @@
+K7Z ISSUES
+
+	All:
+
+		K7Z
+			Warning: Extracted files will automatically overwrite those that already exist in the output directory.
+
+		P7Zip
+			Bug: 4.42: Doesn't display the percentage indicator, so K7Z's percentage indicator won't work properly until the author of P7Zip has fixed this bug.
+			Limit: 4.43: Displays the percentage indicator when creating archives, but not to stdout.  The P7Zip author says he will have a think about how this can be overcome.
+
+	Linux:
+
+		Qt
+			Bug: 4.2.1: In the 'Qt4 Configuration' program, setting 'Interface --> GUI Effects --> Menu Effect' to 'Animate' can cause an error.  To prevent this, try setting 'Menu Effect' to 'Fade' instead.
+				Fix: Please use only Qt >= 4.2.2 with K7Z.
+
+	Windows:
+
+		K7Z
+			Limit: The total installation space required for all prerequisites is over 300 MiB.

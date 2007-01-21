@@ -1,0 +1,92 @@
+K7Z ChangeLog
+
+
+0.6
+* Beneath option: to extract below the destination
+* GNU Tar: is now used to preserve file permissions (Linux)
+* Explorer: improved Shell Menu layout (Windows)
+* Invisible mode: 'i' option to hide the GUI
+* Verbose mode: 'v' option for debugging purposes
+* Extraction: now works properly in Slackware (Linux)
+* CheckInstall: separate scripts for RedHat, Debian, Slackware (Linux)
+* Makefile: possible errors prevented (Linux)
+* Exception handling: possible crashes prevented
+* Write access: to source dir for performance increase (Linux)
+* Code structure: now modular to increase efficiency
+
+0.5
+* Installation: must now "cd Build/ ; make" first (in Linux)
+* MS Windows support: read INSTALL.txt first for dependencies
+* Profiles: to increase efficiency and variety
+* Storage option: to the Konq Service Menu; set a storage location first!
+* Destination option: to send the archive elsewhere
+* Structured option: to mirror source dir structure at destination
+* Documentation: now available from Help menu
+* Spanned archives: Recognition and testing
+* Toolbar: removed to speed up code execution
+* URLs: more efficient handling
+* Executable: extension renamed to .pyw
+* Distribution: reduced file-sizes
+* Code structure: several minor changes
+
+0.4.1
+* Qt 4.2: compatibility fixes
+* Icons: sync (left) and update (up)
+* Code structure: minor changes
+
+0.4
+* Sync option: exclude files removed from disc since last update of archive
+* Settings dialog: to allow for differing user preferences
+* Menubar: to house extra features
+* Toolbar: for common features
+* Statusbar: for feedback text
+* Titlebar: now reflects the current status
+* URLs: for the related websites
+* Source Files: permissions now reflect the file types
+* Code structure: minor changes
+
+0.3.5
+* Stop button: to cancel archiving
+* Fixed size:
+*   CD: 720,000 KiB ≈ 703.1 MiB
+*   Main dialog: inflexible extents
+* Tab ordering: is now more logical
+* Code structure: minor changes
+
+0.3
+* Scramble option: encrypt archive headers
+* Volumes option: and associated icons
+*   Floppy: 1440 KiB ≈ 1.4 MiB
+*   CD: 720,000 KiB ≈ 703.1 MiB
+*   DVD: 4589843.75 KiB ≈ 4.3 GiB
+* Tarball option:
+*   Manually: to create a tarball before archiving
+*   Automatically: for BZip2 and GZip archives
+* GUI: is now more efficient
+* Homepage link: next to the feedback buttons
+* Usage statement: available via the 'h' command-line option
+* Code structure: has been improved
+
+0.2.5
+* Multiple file support: from the Konq Service Menu
+* Feedback buttons: for sending good or bad feedback to the author
+* Konq Service Menu: devices and media are now excluded
+* Print statements: turned off if successful
+
+0.2
+* Threaded operation: prevents the GUI from temporarily locking up
+* K Menu entry: Utilities --> File --> K7Z
+* Konqueror Service Menu entries: Right-Click --> Actions --> K7Z
+*	If you think the K7Z entry should be on the top level (i.e. next to Ark's entries), let me know.
+* Ark's icons: 'add folder' and 'extract'
+* 7-Zip's icon: in the K Menu and Konqueror Service Menu entries
+* Package specification: (.spec) file for use with 'CheckInstall'
+* ./CheckInstall script: to automate the process of using 'CheckInstall'
+*	Tested only on Fedora Core 5 but should work on Debian & Slackware variants
+*		Can anyone confirm that this is correct?
+*		Send me the package and I'll happily post it here.
+
+0.1
+* Archives: folders
+* Extracts: archives
+* Tests: archives

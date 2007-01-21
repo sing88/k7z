@@ -1,0 +1,111 @@
+K7Z INSTALL
+
+
+
+Dependencies
+
+	All:
+
+		Required:
+			Python (2.4): http://www.python.org/
+			Qt4 (4.2.2): http://www.trolltech.com/products/qt
+			PyQt4 (4.1): http://www.riverbankcomputing.co.uk/pyqt/
+
+	Linux:
+
+		Required:
+			Tar (1.15): http://www.gnu.org/software/tar/
+			Make (3.80): http://www.gnu.org/software/make/
+			P7Zip (4.30): http://p7zip.sourceforge.net/
+				P7Zip includes both "7z" and "7za" binaries.
+				"7z" operates on a wider range of archive types.  K7Z therefore uses "7z" instead of "7za".
+				Fedora Core users must install both "p7zip" and "p7zip-plugins" from the Fedora Extras repository.
+
+		Recommended:
+			CheckInstall (1.6): http://asic-linux.com.mx/~izto/checkinstall/
+			KeePassX (0.2.2): http://keepassx.sourceforge.net/
+
+	Windows:
+
+		Required:
+			MinGW (3.10): http://www.mingw.org/
+			7-Zip (4.30): http://www.7-zip.org/
+			FileMenu Tools (5.0): http://www.lopesoft.com/en/fmtools/info.html
+
+		Variables:
+			'$PATH' must include the MinGW, Qt4 and Python binary directories
+				For example: C:\Progra~1\Programming\MinGW\bin;C:\Progra~1\Programming\Qt4\bin;C:\Progra~1\Programming\Python25;
+			'$QTMAKESPEC' must be: win32-g++
+
+		Recommended:
+			KeePass (1.06): http://keepass.sourceforge.net/
+
+
+Installation
+
+	All:
+
+		Clean:
+
+			"cd Build"
+			"make clean"
+
+		Build:
+
+			"cd Build"
+			"make"
+
+	Linux:
+
+		Install:
+
+			For the current user only (recommended):
+			Before using K7Z, you should add '$HOME/bin/' to the PATH variable in your ~/.bash_profile or equivalent, and then restart KDE.
+				"cd Build"
+				"make install-user"
+
+			For all users - packaged (use with caution):
+			Please thoroughly check the "Install.AllUsers" section of the Makefile for scripting errors before proceeding because I am not a Linux expert.  This installation script was written by hand and is not guaranteed to protect your data.  Proceed with either of the following commands only if you are certain that this installation script will not damage your data in any way.  Use this installation script at your own risk.
+				"cd Build"
+				"./CheckInstall-RedHat" or "./CheckInstall-Debian" or "./CheckInstall-Slackware"
+
+			For all users - not packaged (use with caution):
+			Please thoroughly check the "Install.AllUsers" section of the Makefile for scripting errors before proceeding because I am not a Linux expert.  This installation script was written by hand and is not guaranteed to protect your data.  Proceed with either of the following commands only if you are certain that this installation script will not damage your data in any way.  Use this installation script at your own risk.
+				"cd Build"
+				"make install"
+
+	Windows:
+
+		Install:
+
+			For all users (use with caution):
+
+				Execute "K7Z.win.exe"
+
+
+Usage
+
+	Linux:
+
+		K Menu --> Utilities --> File --> K7Z
+
+	Windows:
+
+		Start Menu --> All Programs --> Archiving --> K7Z
+
+
+UnInstallation
+
+	Linux:
+
+		For the current user only (recommended):
+			"cd Build"
+			"make uninstall-user"
+
+		For all users (use with caution):
+			Please thoroughly check the "UnInstall.AllUsers" section of the Makefile for scripting errors before proceeding because I am not a Linux expert.  This uninstallation script was written by hand and is not guaranteed to protect your data.  Proceed with either of the following commands only if you are certain that this uninstallation script will not damage your data in any way.  Use this uninstallation script at your own risk.
+			"rpm -e K7Z" or "make uninstall"
+
+	Windows:
+
+		Start Menu --> All Programs --> Archiving --> K7Z --> UnInstall

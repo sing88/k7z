@@ -1,0 +1,326 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools]
+"Lang"=dword:00000409
+"Enable"=dword:00000001
+"AddToSubMenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-Bar0]
+"BarID"=dword:00000001
+"XPos"=dword:00000000
+"YPos"=dword:00000000
+"MRUDockID"=dword:00000000
+"MRUDockLeftPos"=dword:00000000
+"MRUDockTopPos"=dword:00000000
+"MRUDockRightPos"=dword:00000000
+"MRUDockBottomPos"=dword:00000000
+"MRUFloatXPos"=dword:00000000
+"MRUFloatYPos"=dword:00000000
+"DialogBar"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-Bar1]
+"BarID"=dword:00000080
+"XPos"=dword:00000000
+"YPos"=dword:00000017
+"MRUDockID"=dword:00000000
+"MRUDockLeftPos"=dword:00000000
+"MRUDockTopPos"=dword:00000000
+"MRUDockRightPos"=dword:00000000
+"MRUDockBottomPos"=dword:00000000
+"MRUFloatXPos"=dword:00000000
+"MRUFloatYPos"=dword:00000000
+"DialogBar"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-DockBar0]
+"Bar#0"=dword:00000000
+"Bar#1"=dword:00000001
+"Bar#2"=dword:00000000
+"Bar#3"=dword:00000080
+"Bar#4"=dword:00000000
+"Bars"=dword:00000005
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-DockBar1]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-DockBar2]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-DockBar3]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-Options]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-Summary]
+"Bars"=dword:00000002
+"ScreenCX"=dword:00000578
+"ScreenCY"=dword:0000041A
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\0]
+"Enable"=dword:00000000
+@="2"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\1]
+"Enable"=dword:00000000
+@="3"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\10]
+"Enable"=dword:00000000
+@="11"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\11]
+"Enable"=dword:00000000
+@="12"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\12]
+"Enable"=dword:00000000
+@="13"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\13]
+"Enable"=dword:00000000
+@="14"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\14]
+"Enable"=dword:00000000
+@="15"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\15]
+"Enable"=dword:00000000
+@="16"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\16]
+"Enable"=dword:00000000
+@="17"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\17]
+"Enable"=dword:00000000
+@="18"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\18]
+"Enable"=dword:00000000
+@="19"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\19]
+"Enable"=dword:00000000
+@="20"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2]
+"Enable"=dword:00000001
+@="Menu"
+"MenuText"="K7Z"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2\0]
+"Enable"=dword:00000001
+@="1"
+"CmdType"=dword:00000000
+"ElementTypes"=dword:00000000
+"FileTypes"="*"
+"MenuText"="Default"
+"Description"=""
+"IconFile"="C:\\Program Files\\Archiving\\K7Z\\Source\\Images\\actions\\ark_addfile.ico"
+"IconIndex"=dword:00000000
+"Program"="C:\\Program Files\\Archiving\\K7Z\\Source\\K7Z.pyw"
+"InitFolder"=""
+"Args"="cd %FILEPATHS%"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2\1]
+"Enable"=dword:00000001
+@="1"
+"CmdType"=dword:00000000
+"ElementTypes"=dword:00000000
+"FileTypes"="*"
+"MenuText"="Storage"
+"Description"=""
+"IconFile"="C:\\Program Files\\Archiving\\K7Z\\Source\\Images\\actions\\ark_addfile.ico"
+"IconIndex"=dword:00000000
+"Program"="C:\\Program Files\\Archiving\\K7Z\\Source\\K7Z.pyw"
+"InitFolder"=""
+"Args"="cs %FILEPATHS%"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2\2]
+"Enable"=dword:00000001
+@="1"
+"CmdType"=dword:00000000
+"ElementTypes"=dword:00000000
+"FileTypes"="*"
+"MenuText"="Create ..."
+"Description"=""
+"IconFile"="C:\\Program Files\\Archiving\\K7Z\\Source\\Images\\apps\\K7Z.ico"
+"IconIndex"=dword:00000000
+"Program"="C:\\Program Files\\Archiving\\K7Z\\Source\\K7Z.pyw"
+"InitFolder"=""
+"Args"="c %FILEPATHS%"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2\3]
+"Enable"=dword:00000001
+@="0"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2\4]
+"Enable"=dword:00000001
+@="1"
+"CmdType"=dword:00000000
+"ElementTypes"=dword:00000001
+"FileTypes"="exe,7z,bz2,zip,rpm,deb,gz,tar,cab,arj,cpio,rar,chm,iso,lzh,lha,z,001"
+"MenuText"="Default"
+"Description"=""
+"IconFile"="C:\\Program Files\\Archiving\\K7Z\\Source\\Images\\actions\\ark_extract.ico"
+"IconIndex"=dword:00000000
+"Program"="C:\\Program Files\\Archiving\\K7Z\\Source\\K7Z.pyw"
+"InitFolder"=""
+"Args"="ed %FILEPATHS%"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2\5]
+"Enable"=dword:00000001
+@="1"
+"CmdType"=dword:00000000
+"ElementTypes"=dword:00000001
+"FileTypes"="exe,7z,bz2,zip,rpm,deb,gz,tar,cab,arj,cpio,rar,chm,iso,lzh,lha,z,001"
+"MenuText"="Beneath"
+"Description"=""
+"IconFile"="C:\\Program Files\\Archiving\\K7Z\\Source\\Images\\actions\\ark_extract.ico"
+"IconIndex"=dword:00000000
+"Program"="C:\\Program Files\\Archiving\\K7Z\\Source\\K7Z.pyw"
+"InitFolder"=""
+"Args"="ebd %FILEPATHS%"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2\6]
+"Enable"=dword:00000001
+@="1"
+"CmdType"=dword:00000000
+"ElementTypes"=dword:00000001
+"FileTypes"="exe,7z,bz2,zip,rpm,deb,gz,tar,cab,arj,cpio,rar,chm,iso,lzh,lha,z,001"
+"MenuText"="Extract ..."
+"Description"=""
+"IconFile"="C:\\Program Files\\Archiving\\K7Z\\Source\\Images\\apps\\K7Z.ico"
+"IconIndex"=dword:00000000
+"Program"="C:\\Program Files\\Archiving\\K7Z\\Source\\K7Z.pyw"
+"InitFolder"=""
+"Args"="e %FILEPATHS%"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2\7]
+"Enable"=dword:00000001
+@="0"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2\8]
+"Enable"=dword:00000001
+@="1"
+"CmdType"=dword:00000000
+"ElementTypes"=dword:00000001
+"FileTypes"="exe,7z,bz2,zip,rpm,deb,gz,tar,cab,arj,cpio,rar,chm,iso,lzh,lha,z,001"
+"MenuText"="Test"
+"Description"=""
+"IconFile"="C:\\Program Files\\Archiving\\K7Z\\Source\\Images\\actions\\endturn.ico"
+"IconIndex"=dword:00000000
+"Program"="C:\\Program Files\\Archiving\\K7Z\\Source\\K7Z.pyw"
+"InitFolder"=""
+"Args"="td %FILEPATHS%"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\20]
+"Enable"=dword:00000000
+@="21"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\21]
+"Enable"=dword:00000000
+@="22"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\22]
+"Enable"=dword:00000000
+@="23"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\3]
+"Enable"=dword:00000000
+@="4"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\4]
+"Enable"=dword:00000000
+@="5"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\5]
+"Enable"=dword:00000000
+@="6"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\6]
+"Enable"=dword:00000000
+@="7"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\7]
+"Enable"=dword:00000000
+@="8"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\8]
+"Enable"=dword:00000000
+@="9"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\9]
+"Enable"=dword:00000000
+@="10"
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-1]
+"Type"=dword:00000002
+"DockingCX"=dword:00000412
+"Horiz"=dword:00000001
+"Panes"=dword:00000002
+"Pane-1"=dword:00000002
+"Pane-2"=dword:00000007
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-2]
+"Type"=dword:00000002
+"DockingCX"=dword:0000019E
+"DockingCY"=dword:00000096
+"Panes"=dword:00000002
+"Pane-1"=dword:00000003
+"Pane-2"=dword:00000005
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-3]
+"Type"=dword:00000001
+"DockingCX"=dword:00000104
+"DockingCY"=dword:00000096
+"Panes"=dword:00000001
+"Selected"=dword:00000004
+"Pane-1"=dword:00000004
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-4]
+"Type"=dword:00000000
+"DockingCX"=dword:00000104
+"DockingCY"=dword:00000096
+"Title"="Tasks"
+"ID"=dword:00000FA0
+"DockingHolder"=dword:00000003
+"LastHolder"=dword:00000003
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-5]
+"Type"=dword:00000001
+"DockingCX"=dword:00000104
+"DockingCY"=dword:00000078
+"Panes"=dword:00000001
+"Selected"=dword:00000006
+"Pane-1"=dword:00000006
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-6]
+"Type"=dword:00000000
+"DockingCX"=dword:00000104
+"DockingCY"=dword:00000078
+"Title"="Properties"
+"ID"=dword:00000FA1
+"DockingHolder"=dword:00000005
+"LastHolder"=dword:00000005
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-7]
+"Type"=dword:00000004
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Summary]
+"Panes"=dword:00000007
+"TopContainer"=dword:00000001
+"Client"=dword:00000007
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\PropertiesView]
+"HelpHeight"=dword:00000046
+"DividerPos"=dword:0000006E
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Settings]
+"Window Position"=hex:00,00,00,00,2c,00,00,00,00,00,00,00,01,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,16,00,00,00,1d,00,00,00,30,04,00,00,e0,03,00,00
+
