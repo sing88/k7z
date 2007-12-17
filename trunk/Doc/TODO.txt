@@ -1,8 +1,0 @@
-K7Z TODO
-
-
-Features
-	Once the P7Zip bug is fixed
-		Smooth progress bar
-		Percentage listed in titlebar
-	Extraction of multiple archives
