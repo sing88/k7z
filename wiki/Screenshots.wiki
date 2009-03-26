@@ -1,4 +1,4 @@
-#summary Screenshots of Q7Z and #7Z
+#summary Images of Q7Z and #7Z in action
 #labels Featured,Phase-Design
 
 ==Linux==
