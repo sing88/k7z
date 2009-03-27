@@ -1,0 +1,46 @@
+#summary Ways to interact
+#labels Featured,Phase-Design,Phase-Deploy
+
+==== Archives ====
+
+
+=== Compression ===
+
+7-Zip, BZip2, Zip, GZip, Tar
+
+
+=== Decompression ===
+
+Executable, 7-Zip, BZip2, Zip, RPM, DEB, GZip, Tar, CAB, MSI, WIM, ARJ, CPIO, Rar, CHM, ISO, LZH, LHA, NSIS, Z, Split
+
+
+
+==== Application Menus ====
+
+Launch Q7Z/#7Z from the following application menus.
+
+
+=== Linux ===
+
+K Menu --> Utilities --> Q7Z
+
+
+=== Windows ===
+
+Start Menu --> All Programs --> Archiving --> #7Z
+
+
+
+==== Context Menus ====
+
+Right-click on directories and/or files within the following applications to view the Q7Z/#7Z context menus.
+
+
+=== Linux ===
+
+Konqueror, Dolphin, Nautilus, Thunar
+
+
+=== Windows ===
+
+Windows Explorer
