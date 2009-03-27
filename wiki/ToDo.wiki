@@ -1,0 +1,165 @@
+#summary Planned improvements
+#labels Phase-Requirements,Phase-Design,Phase-QA,Phase-Support
+
+==== Bugs ====
+
+
+=== All ===
+
+  * It sometimes doesn't seem to extract archives with multiple dots (.) in the filename
+	  * I'm having trouble reproducing this
+  * Finish all of the remaining TODO and FIXME statements
+
+
+=== Linux ===
+
+  * Perhaps try to call the P7Zip library directly via Python's 'ctypes' module
+  * Prevent progress bar from completing after clicking 'Stop'
+  * Can't update local existing archives on Kubuntu
+	  * This was okay during a recent brief test
+  * Test the unRAR 'wrong password' seg fault, even with correct pass
+	  * Fedora P7Zip doesn't seem to contain the RAR plug-in
+  * Fix slight error when saving window position upon exit, causing it to move slightly upon startup
+	  * Maybe this only happens when using Compiz or Beryl
+  * The 'Profiles' dir created within 'home' isn't removed when installing the new RPM
+  * SVN doesn't seem to recognise that I want '777' permissions on 'Source'
+	  * I might need to set a special flag, or keep checking the permissions regularly
+
+
+=== Windows ===
+
+  * The GUI locks up totally when updating some faulty archives
+	  * This was happening at DC when saving to 'Zip' files on the formerly FAT32 flash disk
+	  * Find one such faulty archive and debug to find where to fix the problem
+
+
+
+==== Improvements ====
+
+
+=== All ===
+
+  * Show icons with the menu entries along the menu-bar's top level
+	  * PyQt 4.4 doesn't seem to support this
+  * When P7Zip v4.61 becomes mainstream:
+	  * If found, use '7zG' instead of '7z' to see the smooth progress bar
+	  * Be careful to still use '7z' if the 'i' (invisible) option is specified
+  * Tab ordering
+  * Once the P7Zip/7-Zip stdout bug is fixed
+	  * Smooth progress bar
+	  * Percentage listed in titlebar
+  * Extract '.tar.gz' and '.tar.bz2' archives twice to prevent seeing the '.tar' afterwards
+  * Nahuel's suggestions:
+	  * A file browser, for choosing what to compress or extract
+  * Hayden's suggestions
+	  * Perhaps find a way to list files within archives before extracting them
+  * 'Clear' buttons for easier removal of data within line-edits
+  * Perhaps change profiling to use numbers instead of text for internal purposes
+  * Consider adding an action to delete the contents of the "Output" folder
+  * Max' further suggestions
+	  * Continue with backups even if some of the files screw up
+	  * Or possibly test for read permission of the input files before archiving
+	  * 7-Zip might have fixed this already by ignoring shared files by default
+	  * Try to be more like Keep for Linux in terms of automation
+	  * Maybe there were other suggestions too
+  * Figure out where 7z.exe is putting the ".tmp" files
+  * Relocate them to the Windows Temp folder instead
+	  * This might slow down efficiency if the dest archive is on a different drive
+	  * Use the '-w' (working dir) flag for this
+	  * Make this a chooseable option in the 'Settings' dialog
+  * Move all of the start-up code into a slot from a signal when the main form has finished loading, to get it displaying quicker
+	  * Perhaps use [[QShowEvent]] with QApplication or [[QMainWindow]] from QWidget
+	  * This could be tricky, as [[QShowEvent]] is also called when a window is restored after being hidden
+  * Pop-up password dialog for protected archives
+  * Start contacting more freeware websites
+  * Make the dialog contents stretch with the main window size
+
+
+=== Linux ===
+
+  * Options files: to choose preferred external apps
+  * Consider exporting "App-Name=Q7Z" in the env to simplify the post-install/removal scripts for packages
+  * Research popular Python extension modules that I could use to enhance this project
+	  * When importing files, consider using Pyfig
+  * Perhaps use common files between Q7Z and Quamachi
+	  * Settings, TODO
+	  * Also do this with some of the documentation files
+  * Choose a formal python testing framework and implement key tests
+	  * Use 'pychecker' to check the python code for unseen bugs
+  * Decide again whether to use 'bInvisible' from 'Import' or 'Settings'
+  * Streamline all the "Main.uiMain" stuff into 'Display' behind 'bInvisible' tests
+	  * Then remove all of the fragmented 'bInvisible' tests in other modules
+  * Context menu integration in Nautilus and Thunar
+	  * Nautilus is done, but try to make it file/mime-type dependent; see: http://g-scripts.sourceforge.net/faq.php
+	  * Thunar is done, but need to move the 'uca.xml' file without messing up the original
+	  * Also consider making the "Top Level" context menu option relevant for these
+  * Doxygen commenting style to help create the documentation
+	  * Perhaps just do this part using Zim also
+	  * Or use Python's own new 'Sphinx' for the documentation
+  * Add <br> to error messages and output too
+	  * I already fixed part of this when streamlining the messages code
+  * Find a way to nest the functions in an attempt to shorten their names
+  * Once the P7Zip/7-Zip stdout bug is fixed
+	  * Use KDE 4 job progress list
+  * Try using Python's processes instead of Qt's, to shrink the code length
+
+
+=== Windows ===
+
+  * Rename all cases of 'exit' to 'quit' in code and on GUI
+  * Get the 'Stop' button working
+  * Convert 'Settings' static stuff into privates with a global instance
+  * Icons in the 'Type' combo-boxes if possible
+	  * A custom combo-box is needed for [[.NET]] 2; I'll wait for #Develop v3
+	  * I bookmarked a couple of possibilities from The Code Project
+  * Try again to put the Q7Z icon in the NSIS installer
+  * Recent Q7Z implementations
+	  * Use classes containing defs; see Eric's 'SplashScreen.py' for more info
+  * Once the P7Zip/7-Zip stdout bug is fixed
+	  * Perhaps call the DLLs directly to achieve this
+
+
+
+==== Features ====
+
+
+=== All ===
+
+  * Extraction of multiple archives
+  * Compress and email option
+  * Add 'Shutdown When Done' option
+  * Any new archiving options?
+
+
+=== Linux ===
+
+  * Put it on CNR.com after trying Freespire (again)
+
+
+=== Windows ===
+
+  * Look into using the "compress shared files (-ssw) feature
+	  * Ensure that it won't cause errors for currently open files
+
+
+
+==== Shelves ====
+
+
+=== All ===
+
+  * Add a "Custom ..." option to the volume-size listbox
+
+
+=== Linux ===
+
+  * Consider using quotes around file names that are sent to P7Zip
+	  * Then trim them when executing; pull the code from S7Z
+  * Perhaps use Python's own Tar, Zip and BZip2 libraries
+  * Take a closer look at the SMPlayer .spec file
+  * Convert build process to use CMake, QMake, SCons or Setup.py
+  * Try these installers as possible alternatives
+	  * InstallJammer, Autopackage, Zero Install Injector, BitRock, Klik
+
+
+=== Windows ===
