@@ -1,0 +1,12 @@
+#summary Terms of use
+#labels Phase-Requirements
+
+==== Q7Z and #7Z ====
+
+[[http://www.gnu.org/licenses/gpl-3.0-standalone.html|GNU General Public License (GPL) v3]]
+
+
+
+==== P7Zip and 7-Zip ====
+
+[[http://www.7-zip.org/license.txt|GNU LGPL + unRAR restriction]]
