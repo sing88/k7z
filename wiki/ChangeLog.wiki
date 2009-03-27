@@ -20,7 +20,7 @@
   * Options files: to choose preferred external apps
   * Autopackage script: is now available for all distributions
   * Help menu: added a link to the Autopackage website
-  * LZMA format: is now also available for compression
+  * XZ format: is now also available for compression
   * KDE4 Service Menus: now feature the proper separators again
   * GNU Tar: is now used to create BZip2 and GZip archives
   * Destination folder: is now created before archiving
