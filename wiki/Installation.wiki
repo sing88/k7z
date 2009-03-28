@@ -69,15 +69,13 @@ make
   * Please thoroughly check the 'Makefile' for scripting errors before proceeding because I'm not a Linux expert.  It was written by hand and is not guaranteed to protect your data.
   * Proceed with the following commands only if you are certain that this 'Makefile' will not damage your data in any way.  Use it at your own risk.
 
-For all users:
-
+===== System =====
 {{{
 cd Build
 make install
 }}}
 
-For the current user only:
-
+===== User =====
 {{{
 cd Build
 make install-user
@@ -130,7 +128,7 @@ Go to the {{{$(HOME)/.config/Thunar/}}} directory.  Replace your existing {{{uca
 
 ==== Install ====
 
-For all users (use with caution):
+===== System =====
   * Launch the #7Z setup executable file
   * Download and install any unmet dependencies
   * Choose locations for the #7Z files and shortcuts
@@ -147,15 +145,13 @@ For all users (use with caution):
   * Please thoroughly check the 'Makefile' for scripting errors before proceeding because I'm not a Linux expert.  It was written by hand and is not guaranteed to protect your data.
   * Proceed with the following commands only if you are certain that this 'Makefile' will not damage your data in any way.  Use it at your own risk.
 
-For all users:
-
+===== System =====
 {{{
 cd Build
 make uninstall
 }}}
 
-For the current user only:
-
+===== User =====
 {{{
 cd Build
 make uninstall-user
@@ -166,4 +162,5 @@ make uninstall-user
 
 ==== Uninstall ====
 
+===== System =====
 Start Menu --> All Programs --> Archiving --> #7Z --> UnInstall
