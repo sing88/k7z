@@ -20,7 +20,7 @@ Warning: Extracted files will automatically overwrite those that already exist i
 
 === Qt ===
 
-Bug: 4.4.0: Errors are raised when using a caching proxy server, preventing the 'update' feature from working if the {{{http_proxy}}} environment variable is set.
+Bug: 4.4.0: Errors are raised when using a caching proxy server, preventing the 'update' feature from working if the {{{$http_proxy}}} environment variable is set.
 
 
 === PyQt ===
