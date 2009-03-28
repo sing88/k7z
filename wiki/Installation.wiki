@@ -12,7 +12,7 @@
 
   * P7Zip includes both "7z" and "7za" binaries.
   * "7z" operates on a wider range of archive types.  Q7Z therefore uses "7z" instead of "7za".
-  * Fedora Core users must install both "p7zip" and "p7zip-plugins" from the Fedora Extras repository.
+  * Fedora users should install both the "p7zip" and "p7zip-plugins" packages.
 
 ==== Recommended ====
 
@@ -40,9 +40,8 @@ Ensure that you've installed the applications listed in the above 'Dependencies'
 
 ==== Packages ====
 
-  * I provide RPM, DEB and AUR packages alongside the BZip2 source archive of each release.
-  * If your Linux distribution doesn't use one of these formats, you'll need to download the BZip2 source archive and install manually.
-  * If Q7Z doesn't work after installing the package, use the below procedures to rebuild the installed source files manually.
+  * I provide RPM, DEB, TGZ, AUR and Autopackages with each release.
+  * If you prefer to download the BZip2 source archive and install manually, follow the below procedures.
 
 ==== Echo ====
 
