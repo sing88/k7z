@@ -8,26 +8,25 @@
 
 ==== Required ====
 
-[http://www.python.org/ Python], [http://www.trolltech.com/products/qt Qt4], [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt4], [http://www.gnu.org/software/tar/ Tar], [http://www.gnu.org/software/make/ Make], [http://p7zip.sourceforge.net/ P7Zip]
-
-  * P7Zip includes '7z', '7za' and '7zr' binaries.
-  * '7z' operates on a wider range of archive types, which is preferred.
-  * Fedora users should install both the "p7zip" and "p7zip-plugins" packages.
+  * [http://www.python.org/ Python], [http://www.trolltech.com/products/qt Qt4], [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt4], [http://www.gnu.org/software/tar/ Tar], [http://www.gnu.org/software/make/ Make], [http://p7zip.sourceforge.net/ P7Zip]
+    * P7Zip includes '7z', '7za' and '7zr' binaries.
+    * '7z' operates on a wider range of archive types, which is preferred.
+    * Fedora users should install both the "p7zip" and "p7zip-plugins" packages.
 
 ==== Recommended ====
 
-[http://keepassx.sourceforge.net/ KeePassX]
+  * [http://keepassx.sourceforge.net/ KeePassX]
 
 
 === Windows ===
 
 ==== Required ====
 
-[http://msdn2.microsoft.com/en-au/netframework/aa731542.aspx Microsoft .NET 2 Framework]
+  * [http://msdn2.microsoft.com/en-au/netframework/aa731542.aspx Microsoft .NET 2 Framework]
 
 ==== Recommended ====
 
-[http://keepass.info/ KeePass]
+  * [http://keepass.info/ KeePass]
 
 
 
