@@ -1,7 +1,7 @@
 #summary Troubleshooting answers
 #labels Phase-QA,Phase-Deploy,Phase-Support
 
-==== All ====
+== All ==
 
 
 === P7Zip and 7-Zip ===
@@ -15,7 +15,7 @@ Warning: Extracted files will automatically overwrite those that already exist i
 
 
 
-==== Linux ====
+== Linux ==
 
 
 === Qt ===
@@ -32,7 +32,7 @@ Bug: 4.4.2: Errors are raised when importing GUIs with [[QComboBox]] instances c
 
 
 
-==== Windows ====
+== Windows ==
 
 
 === #7Z ===
