@@ -1,7 +1,7 @@
 #summary Fault checking routines
 #labels Phase-QA,Phase-Support
 
-==== All ====
+== All ==
 
   * Update system
 	  * Update version number in relevant files
@@ -27,7 +27,7 @@
 
 
 
-==== Linux ====
+== Linux ==
 
   * CheckInstall
 	  * Check that any new files have been added to the output list
@@ -39,4 +39,4 @@
 
 
 
-==== Windows ====
+== Windows ==
