@@ -45,24 +45,24 @@ Ensure that you've installed the applications listed in the above 'Dependencies'
 
 ==== Echo ====
 
-'''
+{{{
 cd Build
 make echo
-'''
+}}}
 
 ==== Clean ====
 
-'''
+{{{
 cd Build
 make clean
-'''
+}}}
 
 ==== Build ====
 
-'''
+{{{
 cd Build
 make
-'''
+}}}
 
 ==== Install ====
 
@@ -71,17 +71,17 @@ make
 
 For all users:
 
-'''
+{{{
 cd Build
 make install
-'''
+}}}
 
 For the current user only:
 
-'''
+{{{
 cd Build
 make install-user
-'''
+}}}
 
 Add '$HOME/bin/' to the PATH variable in your "~/.bash_profile" or equivalent and restart KDE.
 
@@ -89,16 +89,16 @@ Add '$HOME/bin/' to the PATH variable in your "~/.bash_profile" or equivalent an
 
 Q7Z will use the proxy server defined by your 'http_proxy' environment variable.  For example, add the following to your "~/.bash_profile" or equivalent and restart KDE:
 
-'''
+{{{
 export http_proxy=http://[user:password@]proxy.isp.com[:80]/
-'''
+}}}
 
 
 ==== Cron ====
 
 In your three-hourly cron directory, create an executable shell script like the following:
 
-'''
+{{{
 #!/bin/zsh
 
 # Local
@@ -112,7 +112,7 @@ if [ -w "/media/Storage/Backup/Q7Z/" ]; then
 	/usr/bin/Q7Z.pyw cisL Personal
 	/usr/bin/Q7Z.pyw cisL Programming
 fi
-'''
+}}}
 
 If it will be executed by 'root', create symbolic links to your 'Profiles' and 'Lists' dirs in equivalent dirs below "/root/".
 
@@ -144,17 +144,17 @@ For all users (use with caution):
 
 For all users:
 
-'''
+{{{
 cd Build
 make uninstall
-'''
+}}}
 
 For the current user only:
 
-'''
+{{{
 cd Build
 make uninstall-user
-'''
+}}}
 
 
 === Windows ===
