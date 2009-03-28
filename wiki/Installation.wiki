@@ -1,12 +1,12 @@
 #summary The essentials for deployment
 #labels Featured,Phase-Requirements,Phase-Design,Phase-Deploy,Phase-Support
 
-==== Dependencies ====
+== Dependencies ==
 
 
 === Linux ===
 
-== Required ==
+==== Required ====
 
 [[http://www.python.org/|Python]], [[http://www.trolltech.com/products/qt|Qt4]], [[http://www.riverbankcomputing.co.uk/software/pyqt/intro|PyQt4]], [[http://www.gnu.org/software/tar/|Tar]], [[http://www.gnu.org/software/make/|Make]], [[http://p7zip.sourceforge.net/|P7Zip]]
 
@@ -14,58 +14,58 @@
   * "7z" operates on a wider range of archive types.  Q7Z therefore uses "7z" instead of "7za".
   * Fedora Core users must install both "p7zip" and "p7zip-plugins" from the Fedora Extras repository.
 
-== Recommended ==
+==== Recommended ====
 
 [[http://asic-linux.com.mx/~izto/checkinstall/|CheckInstall]], [[http://keepassx.sourceforge.net/|KeePassX]]
 
 
 === Windows ===
 
-== Required ==
+==== Required ====
 
 [[http://msdn2.microsoft.com/en-au/netframework/aa731542.aspx|Microsoft .NET 2 Framework]]
 
-== Recommended ==
+==== Recommended ====
 
 [[http://keepass.info/|KeePass]]
 
 
 
-==== Installation ====
+== Installation ==
 
 
 === Linux ===
 
 Ensure that you've installed the applications listed in the above 'Dependencies' section first.
 
-== Packages ==
+==== Packages ====
 
   * I provide RPM, DEB and AUR packages alongside the BZip2 source archive of each release.
   * If your Linux distribution doesn't use one of these formats, you'll need to download the BZip2 source archive and install manually.
   * If Q7Z doesn't work after installing the package, use the below procedures to rebuild the installed source files manually.
 
-== Echo ==
+==== Echo ====
 
 '''
 cd Build
 make echo
 '''
 
-== Clean ==
+==== Clean ====
 
 '''
 cd Build
 make clean
 '''
 
-== Build ==
+==== Build ====
 
 '''
 cd Build
 make
 '''
 
-== Install ==
+==== Install ====
 
   * Please thoroughly check the 'Makefile' for scripting errors before proceeding because I'm not a Linux expert.  It was written by hand and is not guaranteed to protect your data.
   * Proceed with the following commands only if you are certain that this 'Makefile' will not damage your data in any way.  Use it at your own risk.
@@ -86,7 +86,7 @@ make install-user
 
 Add '$HOME/bin/' to the PATH variable in your "~/.bash_profile" or equivalent and restart KDE.
 
-== Proxy ==
+==== Proxy ====
 
 Q7Z will use the proxy server defined by your 'http_proxy' environment variable.  For example, add the following to your "~/.bash_profile" or equivalent and restart KDE:
 
@@ -95,7 +95,7 @@ export http_proxy=http://[user:password@]proxy.isp.com[:80]/
 '''
 
 
-== Cron ==
+==== Cron ====
 
 In your three-hourly cron directory, create an executable shell script like the following:
 
@@ -117,14 +117,14 @@ fi
 
 If it will be executed by 'root', create symbolic links to your 'Profiles' and 'Lists' dirs in equivalent dirs below "/root/".
 
-== Xfce (Thunar) ==
+==== Xfce (Thunar) ====
 
 Go to the "$(HOME)/.config/Thunar/" directory.  Replace your existing "uca.xml" with "uca.xml.q7z", or merge the two files together somehow.
 
 
 === Windows ===
 
-== Install ==
+==== Install ====
 
 For all users (use with caution):
   * Launch the #7Z setup executable file
@@ -133,12 +133,12 @@ For all users (use with caution):
 
 
 
-==== Removal ====
+== Removal ==
 
 
 === Linux ===
 
-== Uninstall ==
+==== Uninstall ====
 
   * Please thoroughly check the 'Makefile' for scripting errors before proceeding because I'm not a Linux expert.  It was written by hand and is not guaranteed to protect your data.
   * Proceed with the following commands only if you are certain that this 'Makefile' will not damage your data in any way.  Use it at your own risk.
@@ -160,6 +160,6 @@ make uninstall-user
 
 === Windows ===
 
-== Uninstall ==
+==== Uninstall ====
 
 Start Menu --> All Programs --> Archiving --> #7Z --> UnInstall
