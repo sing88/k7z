@@ -1,44 +1,27 @@
 #summary Design intentions
 #labels Featured,Phase-Requirements,Phase-Design
 
-== Software ==
-
-
-=== All ===
-
-[[http://k7z.sourceforge.net/|Website]]
-
-
-=== Linux ===
-
-[[http://k7z.sourceforge.net/7Z/Q7Z/|Q7Z]] - P7Zip GUI
-
-
-=== Windows ===
-
-[[http://k7z.sourceforge.net/7Z/S7Z/|#7Z]] - 7-Zip GUI
-
-
-
 == Reasons ==
 
 
 === Linux ===
 
-After using KDE for a couple of years, I felt guilty about not contributing my programming skills (or lack thereof) to the open-source community.  Q7Z was my first step towards silencing this feeling.  I loved Python and thought Qt4 applications looked great, so [[PyQt4]] was the obvious choice.
+After using KDE for a couple of years, I felt guilty about not contributing my programming skills (or lack thereof) to the open-source community.  Q7Z was my first step towards silencing this feeling.  I loved Python and thought Qt4 applications looked great, so PyQt4 was the obvious choice.
 
 
 === Windows ===
 
-At the time, I was still working as a software engineer in Windows most days.  Without much fuss, I ported Q7Z across to Windows.  It unfortunately required bulky libraries, so I decided to port the Python code across to C# .[[NET]] for increased nativity.  The resultant application was #7Z.
+At the time, I was still working as a software engineer in Windows most days.  Without much fuss, I ported Q7Z across to Windows.  It unfortunately required bulky libraries, so I decided to port the Python code across to C# .NET for increased nativity.  The resultant application was #7Z.
 
 
 
 == Purposes ==
 
-Q7Z/#7Z is a P7Zip/7-Zip GUI, which attempts to simplify data compression and backup.
+#7Z is a 7-Zip GUI for Windows; Q7Z is a P7Zip GUI for Linux. #7Z and Q7Z attempt to simplify data compression and backup.
 
-Use Q7Z/#7Z if you want to:
+7-Zip is a file archiver for Windows with a high compression ratio; P7Zip is a port of 7-Zip from Windows to Linux.
+
+Use Q7Z or #7Z if you want to:
   * Update existing archives quickly
   * Backup multiple folders to a storage location
   * Create or extract protected archives
@@ -49,4 +32,4 @@ Ark (2.6.3) is handy but it doesn't seem to:
   * Extract (some) archives with passwords
   * Update existing archives by default
 
-Q7Z/#7Z is a simple application that attempts to fill these voids.  It probably won't become a total archiving solution.
+#7Z and Q7Z are simple applications that attempt to fill these voids.  They probably won't become total archiving solutions.
