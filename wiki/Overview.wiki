@@ -1,7 +1,7 @@
 #summary Design intentions
 #labels Featured,Phase-Requirements,Phase-Design
 
-==== Software ====
+== Software ==
 
 
 === All ===
@@ -20,7 +20,7 @@
 
 
 
-==== Reasons ====
+== Reasons ==
 
 
 === Linux ===
@@ -34,7 +34,7 @@ At the time, I was still working as a software engineer in Windows most days.  W
 
 
 
-==== Purposes ====
+== Purposes ==
 
 Q7Z/#7Z is a P7Zip/7-Zip GUI, which attempts to simplify data compression and backup.
 
@@ -50,7 +50,3 @@ Ark (2.6.3) is handy but it doesn't seem to:
   * Update existing archives by default
 
 Q7Z/#7Z is a simple application that attempts to fill these voids.  It probably won't become a total archiving solution.
-
-
-
-==== Author ====
