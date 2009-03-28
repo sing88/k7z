@@ -1,7 +1,7 @@
 #summary Planned improvements
 #labels Phase-Requirements,Phase-Design,Phase-QA,Phase-Support
 
-==== Bugs ====
+== Bugs ==
 
 
 === All ===
@@ -34,7 +34,7 @@
 
 
 
-==== Improvements ====
+== Improvements ==
 
 
 === All ===
@@ -120,7 +120,7 @@
 
 
 
-==== Features ====
+== Features ==
 
 
 === All ===
@@ -143,7 +143,7 @@
 
 
 
-==== Shelves ====
+== Shelves ==
 
 
 === All ===
