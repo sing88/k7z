@@ -25,7 +25,7 @@ Bug: 4.4.0: Errors are raised when using a caching proxy server, preventing the 
 
 === PyQt ===
 
-Bug: 4.4.2: Errors are raised when importing GUIs with [[QComboBox]] instances containing icons.
+Bug: 4.4.2: Errors are raised when importing GUIs with QComboBox instances containing icons.
 
 
 === Q7Z ===
