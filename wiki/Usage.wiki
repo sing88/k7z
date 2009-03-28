@@ -1,7 +1,7 @@
 #summary Ways to interact
 #labels Featured,Phase-Design,Phase-Deploy
 
-==== Archives ====
+== Archives ==
 
 
 === Compression ===
@@ -15,7 +15,7 @@ Executable, 7-Zip, BZip2, Zip, RPM, DEB, GZip, Tar, CAB, MSI, WIM, ARJ, CPIO, Ra
 
 
 
-==== Application Menus ====
+== Application Menus ==
 
 Launch Q7Z/#7Z from the following application menus.
 
@@ -31,7 +31,7 @@ Start Menu --> All Programs --> Archiving --> #7Z
 
 
 
-==== Context Menus ====
+== Context Menus ==
 
 Right-click on directories and/or files within the following applications to view the Q7Z/#7Z context menus.
 
