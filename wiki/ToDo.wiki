@@ -73,7 +73,7 @@
 	  * This could be tricky, as [[QShowEvent]] is also called when a window is restored after being hidden
   * Pop-up password dialog for protected archives
   * Start contacting more freeware websites
-  * Make the dialog contents stretch with the main window size
+  * Resizable dialogs, whose contents shrink or stretch
 
 
 === Linux ===
