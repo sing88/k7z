@@ -79,6 +79,8 @@
 === Linux ===
 
   * Consider submitting a building script to SlackBuilds.org
+  * Perhaps use Tar for extracting/testing archives unfamiliar to P7Zip
+    * This is currently needed for XZ archives
   * Consider exporting "App-Name=Q7Z" in the env to simplify the post-install/removal scripts for packages
   * Research popular Python extension modules that I could use to enhance this project
 	  * When importing files, consider using Pyfig
