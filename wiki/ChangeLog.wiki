@@ -1,7 +1,7 @@
 #summary A chronological list of changes
 #labels Phase-Design,Phase-Support
 
-== Next ==
+== 0.8.0 ==
 
 
 === All ===
