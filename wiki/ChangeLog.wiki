@@ -23,6 +23,7 @@
   * XZ format: is now also available for compression
   * KDE4 Service Menus: now feature the proper separators again
   * GNU Tar: is now used to create BZip2 and GZip archives
+  * Permissions: are now preserved when extracting archives
   * Destination folder: is now created before archiving
   * Python processes: now use the new 'subprocess' module
 
