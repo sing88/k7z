@@ -78,6 +78,7 @@
 
 === Linux ===
 
+  * Bring across the improved 'SectionFlag' code from FcronQ
   * Consider submitting a building script to SlackBuilds.org
   * Consider exporting "App-Name=Q7Z" in the env to simplify the post-install/removal scripts for packages
   * Research popular Python extension modules that I could use to enhance this project
