@@ -73,7 +73,6 @@
 	  * This could be tricky, as [[QShowEvent]] is also called when a window is restored after being hidden
   * Pop-up password dialog for protected archives
   * Start contacting more freeware websites
-  * Resizable dialogs, whose contents shrink or stretch
 
 
 === Linux ===
@@ -108,6 +107,7 @@
 
 === Windows ===
 
+  * Resizable dialogs, whose contents shrink or stretch
   * Rename all cases of 'exit' to 'quit' in code and on GUI
   * Get the 'Stop' button working
   * Convert 'Settings' static stuff into privates with a global instance
