@@ -28,6 +28,7 @@
 
 === Windows ===
 
+  * Fix the registry denial exception that non-admin users on XP get while launching
   * The GUI locks up totally when updating some faulty archives
 	  * This was happening at DC when saving to 'Zip' files on the formerly FAT32 flash disk
 	  * Find one such faulty archive and debug to find where to fix the problem
