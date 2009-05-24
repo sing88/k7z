@@ -1,6 +1,15 @@
 #summary A chronological list of changes
 #labels Phase-Design,Phase-Support
 
+== Next ==
+
+=== All ===
+
+=== Linux ===
+
+  * Resolution-relative and resizable main window
+  * Dialog widgets: are now auto-spaced for clarity
+
 == 0.8.0 ==
 
 
@@ -27,6 +36,9 @@
   * Destination folder: is now created before archiving
   * Python processes: now use the new 'subprocess' module
 
+=== Windows ===
+
+  * Dialog widgets: are now auto-spaced for clarity
 
 
 == 0.7.5 ==
