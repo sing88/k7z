@@ -1,6 +1,8 @@
 #summary A chronological list of changes
 #labels Phase-Design,Phase-Support
 
+----
+
 == Next ==
 
 === All ===
@@ -10,8 +12,9 @@
   * Resolution-relative and resizable main window
   * Dialog widgets: are now auto-spaced for clarity
 
-== 0.8.0 ==
+----
 
+== 0.8.0 ==
 
 === All ===
 
@@ -22,7 +25,6 @@
   * Verbose mode: now more consistently implemented
   * Tarball option: removed to simplify the execution code
   * Code structure: several minor changes
-
 
 === Linux ===
 
@@ -40,16 +42,15 @@
 
   * Dialog widgets: are now auto-spaced for clarity
 
+----
 
 == 0.7.5 ==
-
 
 === All ===
 
   * Documentation: now available in HTML thanks to Zim
   * Help menu: added a link to the Zim website
   * Code structure: several minor changes
-
 
 === Linux ===
 
@@ -66,17 +67,15 @@
   * Dependencies raised: due to bugs below Qt 4.4.1 and PyQt 4.4.3
   * Recommendation: everyone should switch to Arch Linux
 
-
 === Windows ===
 
   * Exclusions: ignore files and directories via wildcards
   * Installer: Improvements were made to the upgrading process
   * Position: of the main window is remembered between sessions
 
-
+----
 
 == 0.7.2 ==
-
 
 === Windows ===
 
@@ -87,10 +86,9 @@
   * Extraction: MSI and WIM archives are now recognised
   * Proxy support: now uses Internet Explorer proxy while updating
 
-
+----
 
 == 0.7.1 ==
-
 
 === Linux ===
 
@@ -104,16 +102,14 @@
   * KDE 4: initial although limited support
   * Code structure: several changes
 
-
 === Windows ===
 
   * Help menu and icons: subtle improvements
   * Structured fix: now keeps the initial tarball in the current directory
 
-
+----
 
 == 0.7.0 ==
-
 
 === All ===
 
@@ -123,7 +119,6 @@
   * Flash profile: for transporting archives compatibly
   * Profiles: changed some compression and output path defaults
   * Code structure: several changes
-
 
 === Linux ===
 
@@ -136,7 +131,6 @@
   * Extraction: MSI and WIM archives are now recognised
   * Structured fix: now keeps the initial tarball in the current directory
 
-
 === Windows ===
 
   * Update checking: threaded and improved code section
@@ -148,10 +142,9 @@
   * Verbose mode: 'v' option for debugging purposes
   * URL links: for Fast Explorer and SharpDevelop in Help menu
 
-
+----
 
 == 0.6.3 ==
-
 
 === Linux ===
 
@@ -164,10 +157,9 @@
   * Operation feedback: now slightly more accurate
   * Code structure: several minor changes
 
-
+----
 
 == 0.6.2 ==
-
 
 === Linux ===
 
@@ -175,10 +167,9 @@
   * Flash mode: 'f' option for sending archives to a flash disc
   * Profile location: fixed a minor relocation issue
 
-
+----
 
 == 0.6.1 ==
-
 
 === All ===
 
@@ -187,29 +178,25 @@
   * Help menu: subtle improvements
   * Code structure: several minor changes
 
-
 === Linux ===
 
   * Application: renamed to Q7Z since it uses Qt
   * GUI: compressed the dialog item spacing
-
 
 === Windows ===
 
   * MS NET Framework 2: now used instead of PyQt4
   * Coding language: switched to C# from Python
 
-
+----
 
 == 0.6 ==
-
 
 === All ===
 
   * Beneath option: to extract below the destination
   * Exception handling: possible crashes prevented
   * Code structure: now modular to increase efficiency
-
 
 === Linux ===
 
@@ -222,15 +209,13 @@
   * Makefile: possible errors prevented
   * Write access: to source dir for performance increase
 
-
 === Windows ===
 
   * Explorer: improved Shell Menu layout
 
-
+----
 
 == 0.5 ==
-
 
 === All ===
 
@@ -244,22 +229,19 @@
   * Executable: extension renamed to .pyw
   * Code structure: several minor changes
 
-
 === Linux ===
 
   * Installation: must now "cd Build/ ; make" first
   * Storage option: to the Konq Service Menu; set a storage location first!
   * Distribution: reduced file-sizes
 
-
 === Windows ===
 
   * Initial support: read INSTALL.txt first for dependencies
 
-
+----
 
 == 0.4.1 ==
-
 
 === Linux ===
 
@@ -267,10 +249,9 @@
   * Icons: sync (left) and update (up)
   * Code structure: minor changes
 
-
+----
 
 == 0.4 ==
-
 
 === Linux ===
 
@@ -284,10 +265,9 @@
   * Source Files: permissions now reflect the file types
   * Code structure: minor changes
 
-
+----
 
 == 0.3.5 ==
-
 
 === Linux ===
 
@@ -298,10 +278,9 @@
   * Tab ordering: is now more logical
   * Code structure: minor changes
 
-
+----
 
 == 0.3 ==
-
 
 === Linux ===
 
@@ -318,10 +297,9 @@
   * Usage statement: available via the 'h' command-line option
   * Code structure: has been improved
 
-
+----
 
 == 0.2.5 ==
-
 
 === Linux ===
 
@@ -330,10 +308,9 @@
   * Konq Service Menu: devices and media are now excluded
   * Print statements: turned off if successful
 
-
+----
 
 == 0.2 ==
-
 
 === Linux ===
 
@@ -349,10 +326,9 @@
 	  * Can anyone confirm that this is correct?
 	  * Send me the package and I'll happily post it here.
 
-
+----
 
 == 0.1 ==
-
 
 === Linux ===
 
