@@ -1,38 +1,34 @@
 #summary Troubleshooting answers
 #labels Phase-QA,Phase-Deploy,Phase-Support
 
-== All ==
+----
 
+== All ==
 
 === P7Zip and 7-Zip ===
 
-Limit: 4.43: Displays the percentage indicator when creating archives, but not to stdout.  The P7Zip author says he will have a think about how this can be overcome.
-
+  * Limit: 4.43: Displays the percentage indicator when creating archives, but not to stdout.  The P7Zip author says he will have a think about how this can be overcome.
 
 === Q7Z and #7Z ===
 
-Warning: Extracted files will automatically overwrite those that already exist in the output directory.
+  * Warning: Extracted files will automatically overwrite those that already exist in the output directory.
 
-
+----
 
 == Linux ==
 
-
 === Qt ===
 
-Bug: 4.4.0: Errors are raised when using a caching proxy server, preventing the 'update' feature from working if the {{{$http_proxy}}} environment variable is set.
-
+  * Bug: 4.4.0: Errors are raised when using a caching proxy server, preventing the 'update' feature from working if the {{{$http_proxy}}} environment variable is set.
 
 === PyQt ===
 
-Bug: 4.4.2: Errors are raised when importing GUIs with QComboBox instances containing icons.
-
+  * Bug: 4.4.2: Errors are raised when importing GUIs with QComboBox instances containing icons.
 
 === Q7Z ===
 
-
+----
 
 == Windows ==
-
 
 === #7Z ===
