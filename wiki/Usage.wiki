@@ -3,18 +3,6 @@
 
 ----
 
-== Archives ==
-
-=== Compression ===
-
-7-Zip, BZip2, Zip, GZip, Tar
-
-=== Decompression ===
-
-Executable, 7-Zip, BZip2, Zip, RPM, DEB, GZip, Tar, CAB, MSI, WIM, ARJ, CPIO, Rar, CHM, ISO, LZH, LHA, NSIS, Z, Split
-
-----
-
 == Application Menus ==
 
 Launch Q7Z/#7Z from the following application menus.
