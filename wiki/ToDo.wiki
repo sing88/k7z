@@ -1,15 +1,15 @@
 #summary Planned improvements
 #labels Phase-Requirements,Phase-Design,Phase-QA,Phase-Support
 
-== Bugs ==
+----
 
+== Bugs ==
 
 === All ===
 
   * It sometimes doesn't seem to extract archives with multiple dots (.) in the filename
 	  * I'm having trouble reproducing this
   * Finish all of the remaining TODO and FIXME statements
-
 
 === Linux ===
 
@@ -25,7 +25,6 @@
   * SVN doesn't seem to recognise that I want '777' permissions on 'Source'
 	  * I might need to set a special flag, or keep checking the permissions regularly
 
-
 === Windows ===
 
   * Fix the registry denial exception that non-admin users on XP get while launching
@@ -33,10 +32,9 @@
 	  * This was happening at DC when saving to 'Zip' files on the formerly FAT32 flash disk
 	  * Find one such faulty archive and debug to find where to fix the problem
 
-
+----
 
 == Improvements ==
-
 
 === All ===
 
@@ -75,7 +73,6 @@
   * Pop-up password dialog for protected archives
   * Start contacting more freeware websites
 
-
 === Linux ===
 
   * Bring across the improved 'SectionFlag' code from FcronQ
@@ -105,7 +102,6 @@
 	  * Use KDE 4 job progress list
   * Try using Python's processes instead of Qt's, to shrink the code length
 
-
 === Windows ===
 
   * Resizable dialogs, whose contents shrink or stretch
@@ -121,10 +117,9 @@
   * Once the P7Zip/7-Zip stdout bug is fixed
 	  * Perhaps call the DLLs directly to achieve this
 
-
+----
 
 == Features ==
-
 
 === All ===
 
@@ -133,26 +128,22 @@
   * Add 'Shutdown When Done' option
   * Any new archiving options?
 
-
 === Linux ===
 
   * Put it on CNR.com after trying Freespire (again)
-
 
 === Windows ===
 
   * Look into using the "compress shared files (-ssw) feature
 	  * Ensure that it won't cause errors for currently open files
 
-
+----
 
 == Shelves ==
-
 
 === All ===
 
   * Add a "Custom ..." option to the volume-size listbox
-
 
 === Linux ===
 
@@ -163,6 +154,5 @@
   * Convert build process to use CMake, QMake, SCons or Setup.py
   * Try these installers as possible alternatives
 	  * InstallJammer, Autopackage, Zero Install Injector, BitRock, Klik
-
 
 === Windows ===
