@@ -1,13 +1,13 @@
 #summary Design intentions
 #labels Featured,Phase-Requirements,Phase-Design
 
-== Reasons ==
+----
 
+== Reasons ==
 
 === Linux ===
 
 After using KDE for a couple of years, I felt guilty about not contributing my programming skills (or lack thereof) to the open-source community.  Q7Z was my first step towards silencing this feeling.  I loved Python and thought Qt4 applications looked great, so PyQt4 was the obvious choice.
-
 
 === Windows ===
 
