@@ -1,8 +1,9 @@
 #summary The essentials for deployment
 #labels Featured,Phase-Requirements,Phase-Design,Phase-Deploy,Phase-Support
 
-== Dependencies ==
+----
 
+== Dependencies ==
 
 === Linux ===
 
@@ -17,7 +18,6 @@
 
   * [http://keepassx.sourceforge.net/ KeePassX]
 
-
 === Windows ===
 
 ==== Required ====
@@ -28,10 +28,9 @@
 
   * [http://keepass.info/ KeePass]
 
-
+----
 
 == Installation ==
-
 
 === Linux ===
 
@@ -90,7 +89,6 @@ The proxy server defined by your {{{$http_proxy}}} environment variable will be 
 export http_proxy=http://[user:password@]proxy.isp.com[:80]/
 }}}
 
-
 ==== Cron ====
 
 In your three-hourly cron directory, create an executable shell script like the following:
@@ -122,7 +120,6 @@ If it will be executed by 'root', create symbolic links to your {{{Profiles}}} a
 
 Go to the {{{$(HOME)/.config/Thunar/}}} directory.  Replace your existing {{{uca.xml}}} with {{{uca.xml.q7z}}}, or merge the two files together somehow.
 
-
 === Windows ===
 
 ==== Install ====
@@ -132,10 +129,9 @@ Go to the {{{$(HOME)/.config/Thunar/}}} directory.  Replace your existing {{{uca
   * Download and install any unmet dependencies
   * Choose locations for the #7Z files and shortcuts
 
-
+----
 
 == Removal ==
-
 
 === Linux ===
 
@@ -155,7 +151,6 @@ make uninstall
 cd Build
 make uninstall-user
 }}}
-
 
 === Windows ===
 
