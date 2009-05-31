@@ -1,6 +1,8 @@
 #summary Fault checking routines
 #labels Phase-QA,Phase-Support
 
+----
+
 == All ==
 
   * Update system
@@ -25,7 +27,7 @@
 	  * Screenshots
   * Uninstallation
 
-
+----
 
 == Linux ==
 
@@ -37,6 +39,6 @@
 	  * Root and user installation
 	  * Install as fresh user
 
-
+----
 
 == Windows ==
