@@ -1,9 +1,13 @@
 #summary Images of usage
 #labels Featured,Phase-Design
 
+----
+
 == Linux ==
 
 http://k7z.sourceforge.net/7Z/Q7Z/Main.png
+
+----
 
 == Windows ==
 
