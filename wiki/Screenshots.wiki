@@ -3,6 +3,11 @@
 
 ----
 
+== Contents ==
+<wiki:toc max_depth="2"/>
+
+----
+
 == Linux ==
 
 http://k7z.sourceforge.net/7Z/Q7Z/Main.png
