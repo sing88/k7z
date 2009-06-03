@@ -3,83 +3,83 @@
 
 ----
 
-== Contents ==
-<wiki:toc max_depth="2"/>
+= Contents =
+<wiki:toc max_depth="1"/>
 
 ----
 
-== Dependencies ==
+= Dependencies =
 
-=== Linux ===
+== Linux ==
 
-==== Required ====
+=== Required ===
 
   * [http://www.python.org/ Python], [http://www.trolltech.com/products/qt Qt4], [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt4], [http://www.gnu.org/software/tar/ Tar], [http://www.gnu.org/software/make/ Make], [http://p7zip.sourceforge.net/ P7Zip]
     * P7Zip includes '7z', '7za' and '7zr' binaries.
     * '7z' operates on a wider range of archive types, which is preferred.
     * Fedora users should install both the "p7zip" and "p7zip-plugins" packages.
 
-==== Recommended ====
+=== Recommended ===
 
   * [http://keepassx.sourceforge.net/ KeePassX]
 
-=== Windows ===
+== Windows ==
 
-==== Required ====
+=== Required ===
 
   * [http://msdn2.microsoft.com/en-au/netframework/aa731542.aspx Microsoft .NET 2 Framework]
 
-==== Recommended ====
+=== Recommended ===
 
   * [http://keepass.info/ KeePass]
 
 ----
 
-== Installation ==
+= Installation =
 
-=== Linux ===
+== Linux ==
 
 Ensure that you've installed the applications listed in the above 'Dependencies' section first.
 
-==== Packages ====
+=== Packages ===
 
   * I provide an Autopackage executable with each release, which is the recommended installation method.
   * I used to provide Deb/RPM/TGZ packages, but these have been deprecated in favour of the Autopackage executable.
   * If the latter doesn't work, download the BZip2 source archive and install manually, following the below procedures.
 
-==== Echo ====
+=== Echo ===
 
 {{{
 cd Build
 make echo
 }}}
 
-==== Clean ====
+=== Clean ===
 
 {{{
 cd Build
 make clean
 }}}
 
-==== Build ====
+=== Build ===
 
 {{{
 cd Build
 make
 }}}
 
-==== Install ====
+=== Install ===
 
   * Please thoroughly check the 'Makefile' for scripting errors before proceeding because I'm not a Linux expert.  It was written by hand and is not guaranteed to protect your data.
   * Proceed with the following commands only if you are certain that this 'Makefile' will not damage your data in any way.  Use it at your own risk.
 
-===== System =====
+==== System ====
 {{{
 cd Build
 make install
 }}}
 
-===== User =====
+==== User ====
 {{{
 cd Build
 make install-user
@@ -87,7 +87,7 @@ make install-user
 
 Add {{{$HOME/bin/}}} to the {{{$PATH}}} variable in your {{{~/.bash_profile}}} or equivalent and restart KDE.
 
-==== Proxy ====
+=== Proxy ===
 
 The proxy server defined by your {{{$http_proxy}}} environment variable will be used.  For example, add the following to your {{{~/.bash_profile}}} or equivalent and restart KDE:
 
@@ -95,7 +95,7 @@ The proxy server defined by your {{{$http_proxy}}} environment variable will be 
 export http_proxy=http://[user:password@]proxy.isp.com[:80]/
 }}}
 
-==== Cron ====
+=== Cron ===
 
 In your three-hourly cron directory, create an executable shell script like the following:
 
@@ -122,45 +122,45 @@ fi
 
 If it will be executed by 'root', create symbolic links to your {{{Profiles}}} and {{{Lists}}} dirs in equivalent dirs below {{{/root/}}}.
 
-==== Xfce (Thunar) ====
+=== Xfce (Thunar) ===
 
 Go to the {{{$(HOME)/.config/Thunar/}}} directory.  Replace your existing {{{uca.xml}}} with {{{uca.xml.q7z}}}, or merge the two files together somehow.
 
-=== Windows ===
+== Windows ==
 
-==== Install ====
+=== Install ===
 
-===== System =====
+==== System ====
   * Launch the #7Z setup executable file
   * Download and install any unmet dependencies
   * Choose locations for the #7Z files and shortcuts
 
 ----
 
-== Removal ==
+= Removal =
 
-=== Linux ===
+== Linux ==
 
-==== Uninstall ====
+=== Uninstall ===
 
   * Please thoroughly check the 'Makefile' for scripting errors before proceeding because I'm not a Linux expert.  It was written by hand and is not guaranteed to protect your data.
   * Proceed with the following commands only if you are certain that this 'Makefile' will not damage your data in any way.  Use it at your own risk.
 
-===== System =====
+==== System ====
 {{{
 cd Build
 make uninstall
 }}}
 
-===== User =====
+==== User ====
 {{{
 cd Build
 make uninstall-user
 }}}
 
-=== Windows ===
+== Windows ==
 
-==== Uninstall ====
+=== Uninstall ===
 
-===== System =====
+==== System ====
 Start Menu --> All Programs --> Archiving --> #7Z --> UnInstall
