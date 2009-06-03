@@ -3,33 +3,33 @@
 
 ----
 
-== Contents ==
-<wiki:toc max_depth="2"/>
+= Contents =
+<wiki:toc max_depth="1"/>
 
 ----
 
-== Application Menus ==
+= Application Menus =
 
 Launch Q7Z/#7Z from the following application menus.
 
-=== Linux ===
+== Linux ==
 
 K Menu --> Utilities --> Q7Z
 
-=== Windows ===
+== Windows ==
 
 Start Menu --> All Programs --> Archiving --> #7Z
 
 ----
 
-== Context Menus ==
+= Context Menus =
 
 Right-click on directories and/or files within the following applications to view the Q7Z/#7Z context menus.
 
-=== Linux ===
+== Linux ==
 
 Konqueror, Dolphin, Nautilus, Thunar
 
-=== Windows ===
+== Windows ==
 
 Windows Explorer
