@@ -3,20 +3,20 @@
 
 ----
 
-== Contents ==
-<wiki:toc max_depth="2"/>
+= Contents =
+<wiki:toc max_depth="1"/>
 
 ----
 
-== Bugs ==
+= Bugs =
 
-=== All ===
+== All ==
 
   * It sometimes doesn't seem to extract archives with multiple dots (.) in the filename
 	  * I'm having trouble reproducing this
   * Finish all of the remaining TODO and FIXME statements
 
-=== Linux ===
+== Linux ==
 
   * Perhaps try to call the P7Zip library directly via Python's 'ctypes' module
   * Prevent progress bar from completing after clicking 'Stop'
@@ -30,7 +30,7 @@
   * SVN doesn't seem to recognise that I want '777' permissions on 'Source'
 	  * I might need to set a special flag, or keep checking the permissions regularly
 
-=== Windows ===
+== Windows ==
 
   * Fix the registry denial exception that non-admin users on XP get while launching
   * The GUI locks up totally when updating some faulty archives
@@ -39,9 +39,9 @@
 
 ----
 
-== Improvements ==
+= Improvements =
 
-=== All ===
+== All ==
 
   * Perhaps implement a splash screen using: QSplashScreen and TBA
   * Show icons with the menu entries along the menu-bar's top level
@@ -78,7 +78,7 @@
   * Pop-up password dialog for protected archives
   * Start contacting more freeware websites
 
-=== Linux ===
+== Linux ==
 
   * Bring across the improved 'SectionFlag' code from FcronQ
   * Consider submitting a building script to SlackBuilds.org
@@ -107,7 +107,7 @@
 	  * Use KDE 4 job progress list
   * Try using Python's processes instead of Qt's, to shrink the code length
 
-=== Windows ===
+== Windows ==
 
   * Resizable dialogs, whose contents shrink or stretch
   * Rename all cases of 'exit' to 'quit' in code and on GUI
@@ -124,33 +124,33 @@
 
 ----
 
-== Features ==
+= Features =
 
-=== All ===
+== All ==
 
   * Extraction of multiple archives
   * Compress and email option
   * Add 'Shutdown When Done' option
   * Any new archiving options?
 
-=== Linux ===
+== Linux ==
 
   * Put it on CNR.com after trying Freespire (again)
 
-=== Windows ===
+== Windows ==
 
   * Look into using the "compress shared files (-ssw) feature
 	  * Ensure that it won't cause errors for currently open files
 
 ----
 
-== Shelves ==
+= Shelves =
 
-=== All ===
+== All ==
 
   * Add a "Custom ..." option to the volume-size listbox
 
-=== Linux ===
+== Linux ==
 
   * Consider using quotes around file names that are sent to P7Zip
 	  * Then trim them when executing; pull the code from S7Z
@@ -160,4 +160,4 @@
   * Try these installers as possible alternatives
 	  * InstallJammer, Autopackage, Zero Install Injector, BitRock, Klik
 
-=== Windows ===
+== Windows ==
