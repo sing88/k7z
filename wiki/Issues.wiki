@@ -3,37 +3,37 @@
 
 ----
 
-== Contents ==
-<wiki:toc max_depth="2"/>
+= Contents =
+<wiki:toc max_depth="1"/>
 
 ----
 
-== All ==
+= All =
 
-=== P7Zip and 7-Zip ===
+== P7Zip and 7-Zip ==
 
   * Limit: 4.43: Displays the percentage indicator when creating archives, but not to stdout.  The P7Zip author says he will have a think about how this can be overcome.
 
-=== Q7Z and #7Z ===
+== Q7Z and #7Z ==
 
   * Warning: Extracted files will automatically overwrite those that already exist in the output directory.
 
 ----
 
-== Linux ==
+= Linux =
 
-=== Qt ===
+== Qt ==
 
   * Bug: 4.4.0: Errors are raised when using a caching proxy server, preventing the 'update' feature from working if the {{{$http_proxy}}} environment variable is set.
 
-=== PyQt ===
+== PyQt ==
 
   * Bug: 4.4.2: Errors are raised when importing GUIs with QComboBox instances containing icons.
 
-=== Q7Z ===
+== Q7Z ==
 
 ----
 
-== Windows ==
+= Windows =
 
-=== #7Z ===
+== #7Z ==
