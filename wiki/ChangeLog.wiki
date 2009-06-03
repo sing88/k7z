@@ -3,25 +3,25 @@
 
 ----
 
-== Contents ==
-<wiki:toc max_depth="2"/>
+= Contents =
+<wiki:toc max_depth="1"/>
 
 ----
 
-== Next ==
+= Next =
 
-=== All ===
+== All ==
 
-=== Linux ===
+== Linux ==
 
   * Resolution-relative and resizable main window
   * Dialog widgets: are now auto-spaced for clarity
 
 ----
 
-== 0.8.0 ==
+= 0.8.0 =
 
-=== All ===
+== All ==
 
   * Main dialog: redesigned to reduce clutter
   * Switches option: to add custom command-line arguments
@@ -31,7 +31,7 @@
   * Tarball option: removed to simplify the execution code
   * Code structure: several minor changes
 
-=== Linux ===
+== Linux ==
 
   * Options files: to choose preferred external apps
   * Autopackage script: is now available for all distributions
@@ -43,21 +43,21 @@
   * Destination folder: is now created before archiving
   * Python processes: now use the new 'subprocess' module
 
-=== Windows ===
+== Windows ==
 
   * Dialog widgets: are now auto-spaced for clarity
 
 ----
 
-== 0.7.5 ==
+= 0.7.5 =
 
-=== All ===
+== All ==
 
   * Documentation: now available in HTML thanks to Zim
   * Help menu: added a link to the Zim website
   * Code structure: several minor changes
 
-=== Linux ===
+== Linux ==
 
   * Paths: now looks beneath "~/.config/" for 'Lists' and 'Profiles'
   * KDE config script: now used to find user paths
@@ -72,7 +72,7 @@
   * Dependencies raised: due to bugs below Qt 4.4.1 and PyQt 4.4.3
   * Recommendation: everyone should switch to Arch Linux
 
-=== Windows ===
+== Windows ==
 
   * Exclusions: ignore files and directories via wildcards
   * Installer: Improvements were made to the upgrading process
@@ -80,9 +80,9 @@
 
 ----
 
-== 0.7.2 ==
+= 0.7.2 =
 
-=== Windows ===
+== Windows ==
 
   * Lists: manual 'Edit' option is now available
   * Local mode: 'l' option for sending archives to the current drive
@@ -93,9 +93,9 @@
 
 ----
 
-== 0.7.1 ==
+= 0.7.1 =
 
-=== Linux ===
+== Linux ==
 
   * Cron jobs: see the 'INSTALL' file for info
   * Lists: manual 'Edit' option is now available
@@ -107,16 +107,16 @@
   * KDE 4: initial although limited support
   * Code structure: several changes
 
-=== Windows ===
+== Windows ==
 
   * Help menu and icons: subtle improvements
   * Structured fix: now keeps the initial tarball in the current directory
 
 ----
 
-== 0.7.0 ==
+= 0.7.0 =
 
-=== All ===
+== All ==
 
   * Lists: for storing links to frequently archived dirs and files
   * List mode: 'L' option to specify a list file at the command-line
@@ -125,7 +125,7 @@
   * Profiles: changed some compression and output path defaults
   * Code structure: several changes
 
-=== Linux ===
+== Linux ==
 
   * Exclusions: ignore files and directories via wildcards
   * Local mode: 'l' option for sending archives to the current drive
@@ -136,7 +136,7 @@
   * Extraction: MSI and WIM archives are now recognised
   * Structured fix: now keeps the initial tarball in the current directory
 
-=== Windows ===
+== Windows ==
 
   * Update checking: threaded and improved code section
   * Multiple input files: can now be combined into an archive
@@ -149,9 +149,9 @@
 
 ----
 
-== 0.6.3 ==
+= 0.6.3 =
 
-=== Linux ===
+== Linux ==
 
   * Remote mode: 'r' option for sending archives to a mounted remote site
   * Konq Service Menu: included separator and reordered the entries
@@ -164,9 +164,9 @@
 
 ----
 
-== 0.6.2 ==
+= 0.6.2 =
 
-=== Linux ===
+== Linux ==
 
   * Flash profile: for transporting archives compatibly
   * Flash mode: 'f' option for sending archives to a flash disc
@@ -174,36 +174,36 @@
 
 ----
 
-== 0.6.1 ==
+= 0.6.1 =
 
-=== All ===
+== All ==
 
   * Update option: to check for a newer release
   * Auto Updates: notification when a newer release is available
   * Help menu: subtle improvements
   * Code structure: several minor changes
 
-=== Linux ===
+== Linux ==
 
   * Application: renamed to Q7Z since it uses Qt
   * GUI: compressed the dialog item spacing
 
-=== Windows ===
+== Windows ==
 
   * MS NET Framework 2: now used instead of PyQt4
   * Coding language: switched to C# from Python
 
 ----
 
-== 0.6 ==
+= 0.6 =
 
-=== All ===
+== All ==
 
   * Beneath option: to extract below the destination
   * Exception handling: possible crashes prevented
   * Code structure: now modular to increase efficiency
 
-=== Linux ===
+== Linux ==
 
   * GNU Tar: is now used to preserve file permissions
   * Invisible mode: 'i' option to hide the GUI
@@ -214,15 +214,15 @@
   * Makefile: possible errors prevented
   * Write access: to source dir for performance increase
 
-=== Windows ===
+== Windows ==
 
   * Explorer: improved Shell Menu layout
 
 ----
 
-== 0.5 ==
+= 0.5 =
 
-=== All ===
+== All ==
 
   * Profiles: to increase efficiency and variety
   * Destination option: to send the archive elsewhere
@@ -234,21 +234,21 @@
   * Executable: extension renamed to .pyw
   * Code structure: several minor changes
 
-=== Linux ===
+== Linux ==
 
   * Installation: must now "cd Build/ ; make" first
   * Storage option: to the Konq Service Menu; set a storage location first!
   * Distribution: reduced file-sizes
 
-=== Windows ===
+== Windows ==
 
   * Initial support: read INSTALL.txt first for dependencies
 
 ----
 
-== 0.4.1 ==
+= 0.4.1 =
 
-=== Linux ===
+== Linux ==
 
   * Qt 4.2: compatibility fixes
   * Icons: sync (left) and update (up)
@@ -256,9 +256,9 @@
 
 ----
 
-== 0.4 ==
+= 0.4 =
 
-=== Linux ===
+== Linux ==
 
   * Sync option: exclude files removed from disc since last update of archive
   * Settings dialog: to allow for differing user preferences
@@ -272,9 +272,9 @@
 
 ----
 
-== 0.3.5 ==
+= 0.3.5 =
 
-=== Linux ===
+== Linux ==
 
   * Stop button: to cancel archiving
   * Fixed size:
@@ -285,9 +285,9 @@
 
 ----
 
-== 0.3 ==
+= 0.3 =
 
-=== Linux ===
+== Linux ==
 
   * Scramble option: encrypt archive headers
   * Volumes option: and associated icons
@@ -304,9 +304,9 @@
 
 ----
 
-== 0.2.5 ==
+= 0.2.5 =
 
-=== Linux ===
+== Linux ==
 
   * Multiple file support: from the Konq Service Menu
   * Feedback buttons: for sending good or bad feedback to the author
@@ -315,9 +315,9 @@
 
 ----
 
-== 0.2 ==
+= 0.2 =
 
-=== Linux ===
+== Linux ==
 
   * Threaded operation: prevents the GUI from temporarily locking up
   * K Menu entry: Utilities --> File --> Q7Z
@@ -333,9 +333,9 @@
 
 ----
 
-== 0.1 ==
+= 0.1 =
 
-=== Linux ===
+== Linux ==
 
   * Archives: folders
   * Extracts: archives
