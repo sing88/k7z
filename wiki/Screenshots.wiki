@@ -12,20 +12,18 @@
 
 == Main Dialog ==
 
-http://k7z.sourceforge.net/7Z/Q7Z/Main.png
-
+[http://k7z.sourceforge.net/7Z/Q7Z/Main.png]
 
 == Context Menu (Create) ==
 
-http://k7z.sourceforge.net/7Z/Q7Z/1.png
-
+[http://k7z.sourceforge.net/7Z/Q7Z/2.png]
 
 == Context Menu (Extract) ==
 
-http://k7z.sourceforge.net/7Z/Q7Z/2.png
+[http://k7z.sourceforge.net/7Z/Q7Z/3.png]
 
 ----
 
 = Windows =
 
-http://k7z.sourceforge.net/7Z/S7Z/Main.png
+[http://k7z.sourceforge.net/7Z/S7Z/Main.png]
