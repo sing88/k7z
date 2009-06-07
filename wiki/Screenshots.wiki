@@ -10,7 +10,19 @@
 
 = Linux =
 
+== Main Dialog ==
+
 http://k7z.sourceforge.net/7Z/Q7Z/Main.png
+
+
+== Context Menu (Create) ==
+
+http://k7z.sourceforge.net/7Z/Q7Z/1.png
+
+
+== Context Menu (Extract) ==
+
+http://k7z.sourceforge.net/7Z/Q7Z/2.png
 
 ----
 
