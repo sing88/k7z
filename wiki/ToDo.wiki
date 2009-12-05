@@ -44,7 +44,7 @@
 == All ==
 
   * Include MRU drop-down lists for sources and destinations
-  * Perhaps implement a splash screen using: QSplashScreen or TBA
+  * Perhaps implement a splash screen using 'QSplashScreen' or 'TBA'
   * Show icons with the menu entries along the menu-bar's top level
 	  * PyQt 4.4 doesn't seem to support this
   * When P7Zip v4.61 becomes mainstream:
