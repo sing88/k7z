@@ -33,6 +33,9 @@
 == Windows ==
 
   * Fix the registry denial exception that non-admin users on XP get while launching
+    * This also happens in Win 7 (64-bit); fix by setting the processor architecture to i686
+  * Work out how to get #7Z working after compiling it for the x86-64 architecture
+    * Also test whether this will allow it to call the x86-64 7-Zip executable and lib
   * The GUI locks up totally when updating some faulty archives
 	  * This was happening at DC when saving to 'Zip' files on the formerly FAT32 flash disk
 	  * Find one such faulty archive and debug to find where to fix the problem
