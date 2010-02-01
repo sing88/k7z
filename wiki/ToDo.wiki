@@ -69,7 +69,7 @@
     * 7-Zip might have fixed this already by ignoring shared files by default
     * Try to be more like Keep for Linux in terms of automation
     * Maybe there were other suggestions too
-  * Perhaps relocate the "*.tmp" files to the Windows Temp folder instead
+  * Perhaps relocate the ".tmp" files to the Windows Temp folder instead
     * This might slow down efficiency if the dest archive is on a different drive
     * Perhaps make this a chooseable option in the 'Settings' dialog
   * Pop-up password dialog for protected archives
