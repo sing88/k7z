@@ -12,10 +12,20 @@
 
 == All ==
 
+  * Restructured the layout of the Shell Menu for clarity
+
 == Linux ==
 
   * Resolution-relative and resizable main window
   * Dialog widgets: are now auto-spaced for clarity
+
+= 0.8.1 =
+
+== Windows ==
+
+  * Now works on 32/64-bit versions of Windows XP/Vista/7
+  * Changed recursion switch to stop finding non-wildcards
+  * Added the "All Files" search filter when finding archives
 
 ----
 
