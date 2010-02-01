@@ -52,6 +52,7 @@
     * PyQt 4.4 doesn't seem to support this
   * Keep adjusting the tab ordering, after modifying the forms
   * Once the P7Zip/7-Zip stdout bug is fixed
+    * Perhaps call the DLLs directly to achieve this
     * Smooth progress bar, percentage listed in titlebar
     * This has been solved by the existence of the new 7zG executable
   * Extract '.tar.gz' and '.tar.bz2' archives twice to prevent seeing the '.tar' afterwards
@@ -68,19 +69,18 @@
     * 7-Zip might have fixed this already by ignoring shared files by default
     * Try to be more like Keep for Linux in terms of automation
     * Maybe there were other suggestions too
-  * Figure out where 7z.exe is putting the ".tmp" files
-  * Relocate them to the Windows Temp folder instead
+  * Perhaps relocate the "*.tmp" files to the Windows Temp folder instead
     * This might slow down efficiency if the dest archive is on a different drive
-    * Use the '-w' (working dir) flag for this
-    * Make this a chooseable option in the 'Settings' dialog
-  * Move all of the start-up code into a slot from a signal when the main form has finished loading, to get it displaying quicker
-    * Perhaps use [[QShowEvent]] with QApplication or [[QMainWindow]] from QWidget
-    * This could be tricky, as [[QShowEvent]] is also called when a window is restored after being hidden
+    * Perhaps make this a chooseable option in the 'Settings' dialog
   * Pop-up password dialog for protected archives
   * Start contacting more freeware websites
 
 == Linux ==
 
+  * Move all of the start-up code into a slot from a signal when the main form has finished loading, to get it displaying quicker
+    * Perhaps use [[QShowEvent]] with QApplication or [[QMainWindow]] from QWidget
+    * This could be tricky, as [[QShowEvent]] is also called when a window is restored after being hidden
+    * Perhaps copy across some of the code from #7Z
   * Bring across the improved 'SectionFlag' code from FcronQ
   * Consider submitting a building script to SlackBuilds.org
   * Consider exporting "App-Name=Q7Z" in the env to simplify the post-install/removal scripts for packages
@@ -111,17 +111,15 @@
 == Windows ==
 
   * Resizable dialogs, whose contents shrink or stretch
-  * Rename all cases of 'exit' to 'quit' in code and on GUI
   * Get the 'Stop' button working
-  * Convert 'Settings' static stuff into privates with a global instance
+  * Perhaps convert 'Settings' static stuff into privates with a global instance
   * Icons in the 'Type' combo-boxes if possible
     * A custom combo-box is needed for [[.NET]] 2; I'll wait for #Develop v3
     * I bookmarked a couple of possibilities from The Code Project
   * Try again to put the Q7Z icon in the NSIS installer
+    * Maybe it's only supposed to be shown in the Start Menu and Control Panel
   * Recent Q7Z implementations
     * Use classes containing defs; see Eric's 'SplashScreen.py' for more info
-  * Once the P7Zip/7-Zip stdout bug is fixed
-    * Perhaps call the DLLs directly to achieve this
 
 ----
 
@@ -132,11 +130,13 @@
   * Extraction of multiple archives
   * Compress and email option
   * Add 'Shutdown When Done' option
-  * Any new archiving options?
+  * Always check for new archiving options
 
 == Linux ==
 
-  * Put it on CNR.com after trying Freespire (again)
+  * Try to make it work on FreeBSD
+  * Perhaps put it on CNR.com after trying Freespire (again)
+  * Look into creating building scripts for Gentoo (Sabayon), Foresight and FreeBSD
 
 == Windows ==
 
@@ -156,9 +156,10 @@
   * Consider using quotes around file names that are sent to P7Zip
     * Then trim them when executing; pull the code from S7Z
   * Perhaps use Python's own Tar, Zip and BZip2 libraries
+    * For the moment, I'm just calling 'tar' directly
   * Take a closer look at the SMPlayer .spec file
-  * Convert build process to use CMake, QMake, SCons or Setup.py
+  * Perhaps convert build process to use CMake, QMake, SCons or Setup.py
   * Try these installers as possible alternatives
-    * InstallJammer, Autopackage, Zero Install Injector, BitRock, Klik
+    * InstallJammer, Zero Install Injector, BitRock, Klik
 
 == Windows ==
