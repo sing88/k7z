@@ -19,6 +19,8 @@
   * Resolution-relative and resizable main window
   * Dialog widgets: are now auto-spaced for clarity
 
+----
+
 = 0.8.1 =
 
 == Windows ==
