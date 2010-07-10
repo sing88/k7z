@@ -150,6 +150,7 @@
 == All ==
 
   * Add a "Custom ..." option to the volume-size listbox
+    * Or just add more fixed (e.g. 10 MiB, 100 MiB) sizes
 
 == Linux ==
 
