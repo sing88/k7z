@@ -12,6 +12,7 @@
 
 == All ==
 
+  * Custom volume sizes can be specified and saved
   * Dialog widgets: are now auto-spaced for clarity
   * Made several minor changes to the code structure
 
