@@ -8,12 +8,12 @@
 
 ----
 
-= Q7Z and #7Z =
+= #7Z and Q7Z =
 
-[http://www.gnu.org/licenses/gpl-3.0-standalone.html GNU General Public License (GPL) v3]
+[http://www.gnu.org/licenses/lgpl.html GNU LGPL v3+] and unRAR restriction
 
 ----
 
-= P7Zip and 7-Zip =
+= 7-Zip and P7Zip =
 
-[http://www.7-zip.org/license.txt GNU LGPL + unRAR restriction]
+[http://www.7-zip.org/license.txt GNU LGPL v2.1+ and unRAR restriction]
