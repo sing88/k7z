@@ -24,6 +24,10 @@
   * Added licensing rules and installation instructions
   * Deprecated all distribution-specific build scripts
 
+== Windows ==
+
+  * The installer is now able to spawn the uninstaller
+
 ----
 
 = 0.8.1 =
