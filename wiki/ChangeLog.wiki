@@ -33,8 +33,7 @@
 == Windows ==
 
   * The '7zG' executable-locating code was improved
-  * The installer removes previous versions silently
-  * The 'silent' mode for the installer was improved
+  * Several aspects of the installer were enhanced
 
 ----
 
