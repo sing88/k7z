@@ -13,19 +13,26 @@
 == All ==
 
   * Custom volume sizes can be specified and saved
-  * Dialog widgets: are now auto-spaced for clarity
+  * Added MRU lists to text fields for convenience
+  * Contents of MRU lists can be cleared if desired
+  * Moved 'Name' fields to add room for 'Dir' fields
+  * The dialog box sizes are now fully adjustable
+  * Dialog widgets are now auto-spaced for clarity
+  * The main form size is remembered between sessions
+  * Improved the clarity of the licensing conditions
+  * Added a link to each license in the 'Help' menu
   * Made several minor changes to the code structure
 
 == Linux ==
 
-  * The dialog box sizes are now fully adjustable
-  * The Makefile now enforces building before installing
-  * Several structural improvements made to the Makefile
-  * Added licensing rules and installation instructions
-  * Deprecated all distribution-specific build scripts
+  * The Makefile enforces building before installing
+  * Made some structural improvements to the Makefile
+  * Added basic build and installation instructions
+  * Deprecated distribution-specific build scripts
 
 == Windows ==
 
+  * The '7zG' executable-locating code was improved
   * The installer is now able to spawn the uninstaller
 
 ----
