@@ -8,7 +8,7 @@
 
 ----
 
-= Next =
+= 0.9.0 =
 
 == All ==
 
@@ -34,6 +34,7 @@
 
   * The '7zG' executable-locating code was improved
   * Several aspects of the installer were enhanced
+  * Profiles and lists are stored in per-user area
 
 ----
 
