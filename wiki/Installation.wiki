@@ -102,21 +102,22 @@ In your three-hourly cron directory, create an executable shell script like the 
 {{{
 #!/bin/zsh
 
+
 # Env
-export DISPLAY=:0.0
+export DISPLAY=:0
 
 # Local
 if [ -w "/media/Exchange/Backup/Q7Z/" ]; then
-        /usr/bin/Q7Z.pyw cilL Personal
-        /usr/bin/Q7Z.pyw cilL Programming
-        /usr/bin/Q7Z.pyw cilL Work
+    /usr/bin/Q7Z.pyw cilL Personal
+    /usr/bin/Q7Z.pyw cilL Programming
+    /usr/bin/Q7Z.pyw cilL Work
 fi
 
 # Storage
 if [ -w "/media/Storage/Backup/Q7Z/" ]; then
-        /usr/bin/Q7Z.pyw cisL Personal
-        /usr/bin/Q7Z.pyw cisL Programming
-        /usr/bin/Q7Z.pyw cisL Work
+    /usr/bin/Q7Z.pyw cisL Personal
+    /usr/bin/Q7Z.pyw cisL Programming
+    /usr/bin/Q7Z.pyw cisL Work
 fi
 }}}
 
