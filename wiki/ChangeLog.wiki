@@ -26,6 +26,7 @@
 == Linux ==
 
   * Upgraded the source code for Python v3 support
+  * Increased the effectiveness of the 'Stop' button
   * The Makefile enforces building before installing
   * Made some structural improvements to the Makefile
   * Added basic build and installation instructions
