@@ -16,11 +16,11 @@
 
 == Context Menu (Create) ==
 
-[http://k7z.sourceforge.net/7Z/Q7Z/2.png]
+[http://k7z.sourceforge.net/7Z/Q7Z/Create.png]
 
 == Context Menu (Extract) ==
 
-[http://k7z.sourceforge.net/7Z/Q7Z/3.png]
+[http://k7z.sourceforge.net/7Z/Q7Z/Extract.png]
 
 ----
 
