@@ -14,7 +14,7 @@
 
   * Added the ability to toggle the Auto-Quit state
   * Enhanced the information notification techniques
-  * Changed the download URL launched when updating
+  * Improvements were made to the update checking code
   * Made several minor changes to the code structure
 
 ----
