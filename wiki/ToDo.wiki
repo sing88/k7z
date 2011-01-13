@@ -110,8 +110,6 @@
 
 == Windows ==
 
-  * Resizable dialogs, whose contents shrink or stretch
-  * Get the 'Stop' button working
   * Perhaps convert 'Settings' static stuff into privates with a global instance
   * Icons in the 'Type' combo-boxes if possible
     * A custom combo-box is needed for [[.NET]] 2; I'll wait for #Develop v3
@@ -127,6 +125,7 @@
 
 == All ==
 
+  * Allow users to set the window opacity in the settings dialog
   * Extraction of multiple archives
   * Compress and email option
   * Add 'Shutdown When Done' option
