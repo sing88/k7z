@@ -125,7 +125,7 @@
 
 == All ==
 
-  * Allow users to set the window opacity in the settings dialog
+  * Let users choose the window opacity percentage
   * Extraction of multiple archives
   * Compress and email option
   * Add 'Shutdown When Done' option
