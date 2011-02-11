@@ -8,6 +8,26 @@
 
 ----
 
+= Next =
+
+== All ==
+
+  * Ported the S7Z and Q7Z source code to Java SE
+  * The application was renamed to J7Z accordingly
+  * This means both S7Z and Q7Z are now deprecated
+  * The GUI is now skinnable via downloadable L&Fs
+  * External options can be configured via the GUI
+  * The 'Profile' menu has been simplified slightly
+  * Made several minor changes to the code structure
+
+== Linux ==
+
+  * Makefile checks dir/file permissions were set
+
+== Windows ==
+
+  * Installer now downloads dependencies at runtime
+
 = 0.9.1 =
 
 == All ==
