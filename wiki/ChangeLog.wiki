@@ -12,12 +12,14 @@
 
 == All ==
 
-  * Ported the S7Z and Q7Z source code to Java SE
+  * Ported the #7Z and Q7Z source code to Java SE
   * The application was renamed to J7Z accordingly
-  * This means both S7Z and Q7Z are now deprecated
+  * This means both #7Z and Q7Z are now deprecated
   * The GUI is now skinnable via downloadable L&Fs
   * External options can be configured via the GUI
   * The 'Profile' menu has been simplified slightly
+  * Removed two rarely used GUI options for clarity
+  * Changed the on-disk format of archiving profiles
   * Made several minor changes to the code structure
 
 == Linux ==
