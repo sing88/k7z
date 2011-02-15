@@ -16,10 +16,13 @@
 = Installation =
 
   * Simply download each desired skin's ".jar" (Java Archive) file to J7Z's 'Lib' folder.
-  * If preferred, save it elsewhere and add the folder's full path to J7Z's "Lib-Dirs" file via the 'External' menu.
+  * If preferred, save it elsewhere and add that folder's full path to J7Z's "Lib-Dirs" file via the 'External' menu.
   * After restarting J7Z, the new skin and any styles (themes) it provides will be listed in the 'Settings' dialog.
 
 = Recommendations =
+
+  * The following skins seem to work quite well with J7Z.
+  * Let me know if you find other good ones and I'll add them to the list.
 
 == Small ==
 
@@ -28,4 +31,8 @@
 
 == Medium ==
 
+  * JTattoo - (590 KiB) - [http://www.jtattoo.net/ Website]
+
 == Large ==
+
+  * Substance - (1.81 MiB) - [http://java.net/projects/substance/ Website]
