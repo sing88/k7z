@@ -1,4 +1,4 @@
-#summary Customising the GUI
+#summary Customisation instructions
 #labels Featured,Phase-Design,Phase-Deploy
 
 ----
