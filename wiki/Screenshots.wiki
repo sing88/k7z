@@ -8,22 +8,16 @@
 
 ----
 
-= Linux =
+= All =
 
 == Main Dialog ==
 
-[http://k7z.sourceforge.net/7Z/Q7Z/Main.png]
+[http://k7z.sourceforge.net/7Z/J7Z/Main.png]
 
 == Context Menu (Create) ==
 
-[http://k7z.sourceforge.net/7Z/Q7Z/Create.png]
+[http://k7z.sourceforge.net/7Z/J7Z/Create.png]
 
 == Context Menu (Extract) ==
 
-[http://k7z.sourceforge.net/7Z/Q7Z/Extract.png]
-
-----
-
-= Windows =
-
-[http://k7z.sourceforge.net/7Z/S7Z/Main.png]
+[http://k7z.sourceforge.net/7Z/J7Z/Extract.png]
