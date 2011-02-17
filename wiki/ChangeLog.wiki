@@ -31,6 +31,8 @@
 
   * Installer now downloads dependencies at runtime
 
+----
+
 = 0.9.1 =
 
 == All ==
