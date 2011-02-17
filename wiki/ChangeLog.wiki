@@ -18,6 +18,7 @@
   * The GUI is now skinnable via downloadable L&Fs
   * External options can be configured via the GUI
   * The 'Profile' menu has been simplified slightly
+  * Added the 'Switches' capability for extractions
   * Removed two rarely used GUI options for clarity
   * Changed the on-disk format of archiving profiles
   * Made several minor changes to the code structure
