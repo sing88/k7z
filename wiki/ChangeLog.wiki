@@ -20,6 +20,8 @@
   * GNU Tar is no longer a mandatory dependency
   * BSD-Tar can now be used instead of GNU-Tar
 
+----
+
 = 1.0.0 =
 
 == All ==
