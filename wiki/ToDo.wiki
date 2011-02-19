@@ -64,6 +64,9 @@
     * This might slow down efficiency if the dest archive is on a different drive
   * Pop-up password dialog for protected archives
   * Start contacting more freeware websites, possibly automatically via a PAD.xml submitting application
+  * Find a way to move more of the methods out of the 'fMain' source file
+  * Choose a formal testing framework and implement key tests
+  * Download the Javadoc archive and add comments to the top of methods in the source code
 
 == Linux ==
 
@@ -74,13 +77,9 @@
   * Bring across the improved 'SectionFlag' code from FcronQ
   * Consider submitting a building script to SlackBuilds.org
   * Consider exporting "App-Name=Q7Z" in the env to simplify the post-install/removal scripts for packages
-  * Research popular Python extension modules that I could use to enhance this project
-    * When importing files, consider using Pyfig
   * Perhaps use common files between Q7Z and Quamachi
     * Settings, TODO
     * Also do this with some of the documentation files
-  * Choose a formal python testing framework and implement key tests
-    * Use 'pychecker' to check the python code for unseen bugs
   * Decide again whether to use 'bInvisible' from 'Import' or 'Settings'
   * Streamline all the "Main.uiMain" stuff into 'Display' behind 'bInvisible' tests
     * Then remove all of the fragmented 'bInvisible' tests in other modules
@@ -88,22 +87,15 @@
     * Nautilus is done, but try to make it file/mime-type dependent; see: http://g-scripts.sourceforge.net/faq.php
     * Thunar is done, but need to move the 'uca.xml' file without messing up the original
     * Also consider making the "Top Level" context menu option relevant for these
-  * Doxygen commenting style to help create the documentation
-    * Perhaps just do this part using Zim also
-    * Or use Python's own new 'Sphinx' for the documentation
-  * Add <br> to error messages and output too
-    * I already fixed part of this when streamlining the messages code
-  * Find a way to nest the functions in an attempt to shorten their names
   * Once the P7Zip/7-Zip stdout bug is fixed
     * Use KDE 4 job progress list
-  * Try using Python's processes instead of Qt's, to shrink the code length
 
 == Windows ==
 
   * Perhaps convert 'Settings' static stuff into privates with a global instance
   * Icons in the 'Type' combo-boxes if possible
-    * A custom combo-box is needed for [[.NET]] 2; I'll wait for #Develop v3
-    * I bookmarked a couple of possibilities from The Code Project
+    * A custom combo-box is needed for Java v1.6; I might wait for v1.7
+    * An example of how to implement this is clearly documented on the Java website
   * Try again to put the Q7Z icon in the NSIS installer
     * Maybe it's only supposed to be shown in the Start Menu and Control Panel
   * Recent Q7Z implementations
@@ -119,7 +111,7 @@
   * Extraction of multiple archives
   * Compress and email option
   * Add 'Shutdown When Done' option
-  * Always check for new archiving options
+  * Keep checking for new archiving options
 
 == Linux ==
 
@@ -138,18 +130,15 @@
 
 == All ==
 
-  * Add a "Custom ..." option to the volume-size listbox
-    * Or just add more fixed (e.g. 10 MiB, 100 MiB) sizes
-
 == Linux ==
 
   * Consider using quotes around file names that are sent to P7Zip
     * Then trim them when executing; pull the code from S7Z
-  * Perhaps use Python's own Tar, Zip and BZip2 libraries
-    * For the moment, I'm just calling 'tar' directly
+  * Perhaps use Java's own Tar, Zip and BZip2 libraries (if they even exist)
   * Take a closer look at the SMPlayer .spec file
-  * Perhaps convert build process to use CMake, QMake, SCons or Setup.py
+  * Perhaps convert build process to use Apache-Ant (more), CMake, QMake, SCons or Setup.py
   * Try these installers as possible alternatives
     * InstallJammer, Zero Install Injector, BitRock, Klik
+    * Consider just using 7-Zip's SFX module that can add a post-extraction (installation) script
 
 == Windows ==
