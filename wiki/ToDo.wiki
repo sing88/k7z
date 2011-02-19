@@ -39,22 +39,20 @@
 
 == All ==
 
-  * Include MRU drop-down lists for sources and destinations
   * Perhaps implement a splash screen using 'QSplashScreen' or 'TBA'
   * Show icons with the menu entries along the menu-bar's top level
-    * PyQt 4.4 doesn't seem to support this
   * Keep adjusting the tab ordering, after modifying the forms
-  * Once the P7Zip/7-Zip stdout bug is fixed
+  * Once the P7Zip/7-Zip stdout issue is fixed
     * Perhaps call the DLLs directly to achieve this
     * Smooth progress bar, percentage listed in titlebar
-    * This has been solved by the existence of the new 7zG executable
+    * This was partly solved by the existence of the new 7zG executable
   * Extract '.tar.gz' and '.tar.bz2' archives twice to prevent seeing the '.tar' afterwards
   * Nahuel's suggestions:
     * A file browser, for choosing what to compress or extract
+      * Maybe this would go against the 'basic' philosophy of J7Z
   * Hayden's suggestions
     * Perhaps find a way to list files within archives before extracting them
   * 'Clear' buttons for easier removal of data within line-edits
-  * Perhaps change profiling to use numbers instead of text for internal purposes
   * Consider adding an action to delete the contents of the "Output" folder
   * Max' further suggestions
     * Continue with backups even if some of the files screw up
@@ -64,9 +62,8 @@
     * Maybe there were other suggestions too
   * Perhaps relocate the ".tmp" files to the Windows Temp folder instead
     * This might slow down efficiency if the dest archive is on a different drive
-    * Perhaps make this a chooseable option in the 'Settings' dialog
   * Pop-up password dialog for protected archives
-  * Start contacting more freeware websites
+  * Start contacting more freeware websites, possibly automatically via a PAD.xml submitting application
 
 == Linux ==
 
