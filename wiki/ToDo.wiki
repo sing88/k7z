@@ -18,8 +18,7 @@
 
 == Linux ==
 
-  * Perhaps try to call the P7Zip library directly via Python's 'ctypes' module
-  * Prevent progress bar from completing after clicking 'Stop'
+  * Perhaps try to call the 7-Zip library directly
   * Can't update local existing archives on Kubuntu
     * This was okay during a recent brief test
   * Test the unRAR 'wrong password' seg fault, even with correct pass
@@ -27,15 +26,9 @@
   * Fix slight error when saving window position upon exit, causing it to move slightly upon startup
     * Maybe this only happens when using Compiz or Beryl
   * The 'Profiles' dir created within 'home' isn't removed when installing the new RPM
-  * SVN doesn't seem to recognise that I want '777' permissions on 'Source'
-    * I might need to set a special flag, or keep checking the permissions regularly
 
 == Windows ==
 
-  * Fix the registry denial exception that non-admin users on XP get while launching
-    * This also happens in Win 7 (64-bit); fix by setting the processor architecture to i686
-  * Work out how to get #7Z working after compiling it for the x86-64 architecture
-    * Also test whether this will allow it to call the x86-64 7-Zip executable and lib
   * The GUI locks up totally when updating some faulty archives
     * This was happening at DC when saving to 'Zip' files on the formerly FAT32 flash disk
     * Find one such faulty archive and debug to find where to fix the problem
