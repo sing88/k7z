@@ -13,7 +13,7 @@
 == All ==
 
   * Changed the method used for viewing files
-  * Tidied up the archive creation thread code
+  * Tidied up much of the archiving thread code
 
 == Linux ==
 
