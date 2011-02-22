@@ -20,6 +20,7 @@
   * The prebuilt archive doesn't need the JDK
   * GNU Tar is no longer a mandatory dependency
   * BSD-Tar can now be used instead of GNU-Tar
+  * Forced the Makefile to build in serial mode
 
 ----
 
