@@ -8,18 +8,18 @@
 
 ----
 
-= Next =
+= 1.0.1 =
 
-== 1.0.1 ==
+== All ==
 
   * Changed the method used for viewing files
   * Tidied up much of the archiving thread code
 
 == Linux ==
 
+  * The prebuilt archive only requires the JRE
   * GNU Tar is no longer a mandatory dependency
   * BSD-Tar can now be used instead of GNU-Tar
-  * The prebuilt archive only requires the JRE
 
 ----
 
