@@ -17,7 +17,7 @@
 
 == Linux ==
 
-  * The prebuilt archive only requires the JRE
+  * The prebuilt archive doesn't need the JDK
   * GNU Tar is no longer a mandatory dependency
   * BSD-Tar can now be used instead of GNU-Tar
 
