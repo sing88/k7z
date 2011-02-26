@@ -21,8 +21,10 @@
 
 = Recommendations =
 
-  * The following skins seem to work quite well with J7Z.
-  * Let me know if you find other good ones and I'll add them to the list.
+  * The following skins are of decent or good quality in my opinion.
+  * Each of them appears to work as expected within the bounds of J7Z.
+  * Some of them are not free software, so read their licenses carefully.
+  * Let me know if you find other good skins and I'll add them to the list.
 
 == Small ==
 
