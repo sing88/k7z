@@ -11,7 +11,14 @@
 = Introduction =
 
   * The J7Z GUI can be customised via downloadable Java "Look and Feel" skins.
-  * Plenty of these are available for free from various websites, some of which are listed below.
+  * Plenty of these are available from various websites, some of which are listed below.
+  * J7Z can also adopt the system theme, even when run in Linux via Gnome/KDE/Xfce.
+
+= KDE =
+
+  * KDE v4 users will be pleased to know that J7Z can use their Oxygen theme.
+  * They just need to install the [http://kde-look.org/content/show.php?content=74689 GTK-KDE4] application and set its 'style' to 'KDE'.
+  * Once that's done, the 'GTK+' skin must be chosen from within J7Z's 'Settings' dialog.
 
 = Installation =
 
@@ -19,22 +26,18 @@
   * If a common skins folder exists elsewhere, add its full path to J7Z's "Lib-Dirs" file via the 'External' menu.
   * After restarting J7Z, the new skin and any styles (themes) it provides will be listed in the 'Settings' dialog.
 
-= Recommendations =
+= Skins =
 
   * The following skins are of decent or good quality in my opinion.
-  * Each of them appears to work as expected within the bounds of J7Z.
   * Some of them are not free software, so read their licenses carefully.
   * Let me know if you find other good skins and I'll add them to the list.
 
-== Small ==
+== Decent ==
 
   * EaSynth - (90 KiB) - [http://www.easynth.com/freewares/EaSynthLookAndFeel.html Website]
   * PagoSoft - (160 KiB) - [http://www.pagosoft.com/projects/pgslookandfeel/ Website]
 
-== Medium ==
+== Good ==
 
   * JTattoo - (590 KiB) - [http://www.jtattoo.net/ Website]
-
-== Large ==
-
   * Substance - (1.81 MiB) - [http://java.net/projects/substance/ Website]
