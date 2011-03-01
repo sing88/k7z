@@ -16,9 +16,10 @@
 
 = KDE =
 
-  * KDE v4 users will be pleased to know that J7Z can use their Oxygen theme.
-  * They just need to install the [http://kde-look.org/content/show.php?content=74689 GTK-KDE4] application and set its 'style' to 'KDE'.
-  * Once that's done, the 'GTK+' skin must be chosen from within J7Z's 'Settings' dialog.
+  * KDE v4 users will be pleased to know that J7Z can adopt their desktop theme.
+  * They just need to install the [http://kde-look.org/content/show.php?content=74689 GTK-KDE4] application and choose 'KDE' from its style list.
+  * The 'Oxygen' theme looks better if [http://kde-look.org/content/show.php/Oxygen+Gtk?content=136216 Oxygen-GTK] is installed and chosen from the list instead.
+  * Once that's done, the "GTK+" skin must be chosen from within J7Z's 'Settings' dialog.
 
 = Installation =
 
