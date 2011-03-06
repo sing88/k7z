@@ -8,6 +8,28 @@
 
 ----
 
+= 1.1.0 =
+
+== All ==
+
+  * Skins and styles can be randomised each session
+  * Added support for more downloadable skins and styles
+  * Clearing the history also cleans 'Output' directory
+  * Improved the batch-mode command-line arguments
+  * Any profile can be specified at the command-line
+  * Error message shown when skin/style change failed
+  * Corrected handling when previous skin is absent
+  * List of JAR files is now sorted before searching
+  * Fixed profile handling if a combo-box has the focus
+  * Output directory is always checked before archiving
+  * Made several minor changes to the code structure
+
+== Linux ==
+
+  * Removed Apache-Ant check when source is absent
+
+----
+
 = 1.0.1 =
 
 == All ==
