@@ -87,42 +87,6 @@ make install-user
 
 Add {{{$HOME/bin/}}} to the {{{$PATH}}} variable in your {{{~/.bash_profile}}} or equivalent and restart KDE.
 
-=== Proxy ===
-
-The proxy server defined by your {{{$http_proxy}}} environment variable will be used.  For example, add the following to your {{{~/.bash_profile}}} or equivalent and restart KDE:
-
-{{{
-export http_proxy=http://[user:password@]proxy.isp.com[:80]/
-}}}
-
-=== Cron ===
-
-In your three-hourly cron directory, create an executable shell script like the following:
-
-{{{
-#!/bin/zsh
-
-
-# Env
-export DISPLAY=:0
-
-# Local
-if [ -w "/media/Exchange/Backup/Q7Z/" ]; then
-    /usr/bin/Q7Z.pyw cilL Personal
-    /usr/bin/Q7Z.pyw cilL Programming
-    /usr/bin/Q7Z.pyw cilL Work
-fi
-
-# Storage
-if [ -w "/media/Storage/Backup/Q7Z/" ]; then
-    /usr/bin/Q7Z.pyw cisL Personal
-    /usr/bin/Q7Z.pyw cisL Programming
-    /usr/bin/Q7Z.pyw cisL Work
-fi
-}}}
-
-If it will be executed by 'root', create symbolic links to your {{{Profiles}}} and {{{Lists}}} dirs in equivalent dirs below {{{/root/}}}.
-
 === Xfce (Thunar) ===
 
 Go to the {{{$(HOME)/.config/Thunar/}}} directory.  Replace your existing {{{uca.xml}}} with {{{uca.xml.q7z}}}, or merge the two files together somehow.
