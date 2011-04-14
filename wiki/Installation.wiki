@@ -14,7 +14,7 @@
 
 === Required ===
 
-  * [http://www.java.com/ Java]
+  * [http://www.java.com/ Java] v1.6
 
 == Linux ==
 
@@ -30,10 +30,7 @@
 
 === Recommended ===
 
-  * [http://www.gnu.org/software/tar/ Tar]
-  * [http://www.gzip.org/ GZip]
-  * [http://bzip.org/ BZip2]
-  * [http://tukaani.org/xz/ XZ]
+  * [http://www.gnu.org/software/tar/ Tar], [http://www.gzip.org/ GZip], [http://bzip.org/ BZip2], [http://tukaani.org/xz/ XZ]
 
 ----
 
