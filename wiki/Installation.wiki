@@ -10,73 +10,54 @@
 
 = Dependencies =
 
+== All ==
+
+=== Required ===
+
+  * [http://www.java.com/ Java]
+
 == Linux ==
 
 === Required ===
 
-  * [http://www.python.org/ Python], [http://www.trolltech.com/products/qt Qt4], [http://www.riverbankcomputing.co.uk/software/pyqt/intro PyQt4], [http://www.gnu.org/software/tar/ Tar], [http://www.gnu.org/software/make/ Make], [http://p7zip.sourceforge.net/ P7Zip]
-    * P7Zip includes '7z', '7za' and '7zr' binaries.
-    * '7z' operates on a wider range of archive types, which is preferred.
-    * Fedora users should install both the "p7zip" and "p7zip-plugins" packages.
+  * [http://www.gnu.org/software/make/ Make], [http://p7zip.sourceforge.net/ P7Zip]
+
+==== P7Zip ====
+
+  * The full package includes '7z', '7za' and '7zr' binaries.
+  * '7z' operates on a wider range of archive types, which is preferred.
+  * Fedora users should install both the "p7zip" and "p7zip-plugins" packages.
 
 === Recommended ===
 
-  * [http://keepassx.sourceforge.net/ KeePassX]
-
-== Windows ==
-
-=== Required ===
-
-  * [http://msdn2.microsoft.com/en-au/netframework/aa731542.aspx Microsoft .NET 2 Framework]
-
-=== Recommended ===
-
-  * [http://keepass.info/ KeePass]
+  * [http://www.gnu.org/software/tar/ Tar]
+  * [http://www.gzip.org/ GZip]
+  * [http://bzip.org/ BZip2]
+  * [http://tukaani.org/xz/ XZ]
 
 ----
 
 = Installation =
 
-== Linux ==
+== All ==
 
 Ensure that you've installed the applications listed in the above 'Dependencies' section first.
 
-=== Packages ===
-
-  * I provide an Autopackage executable with each release, which is the recommended installation method.
-  * I used to provide Deb/RPM/TGZ packages, but these have been deprecated in favour of the Autopackage executable.
-  * If the latter doesn't work, download the BZip2 source archive and install manually, following the below procedures.
-
-=== Echo ===
-
-{{{
-cd Build
-make echo
-}}}
-
-=== Clean ===
-
-{{{
-cd Build
-make clean
-}}}
+== Linux ==
 
 === Build ===
 
 {{{
 cd Build
-make
+make all
 }}}
 
 === Install ===
 
-  * Please thoroughly check the 'Makefile' for scripting errors before proceeding because I'm not a Linux expert.  It was written by hand and is not guaranteed to protect your data.
-  * Proceed with the following commands only if you are certain that this 'Makefile' will not damage your data in any way.  Use it at your own risk.
-
 ==== System ====
 {{{
 cd Build
-make install
+sudo make install
 }}}
 
 ==== User ====
@@ -87,18 +68,19 @@ make install-user
 
 Add {{{$HOME/bin/}}} to the {{{$PATH}}} variable in your {{{~/.bash_profile}}} or equivalent and restart KDE.
 
-=== Xfce (Thunar) ===
+=== File Managers ===
 
-Go to the {{{$(HOME)/.config/Thunar/}}} directory.  Replace your existing {{{uca.xml}}} with {{{uca.xml.q7z}}}, or merge the two files together somehow.
+  * J7Z shell menus are available for the file managers of the major desktop environments.
+  * KDE (Dolphin), Gnome (Nautilus) and Xfce (Thunar) are currently supported.
+  * The relevant configuration files should be copied from the 'Desktop' directory.
 
 == Windows ==
 
 === Install ===
 
 ==== System ====
-  * Launch the #7Z setup executable file
-  * Download and install any unmet dependencies
-  * Choose locations for the #7Z files and shortcuts
+  
+  * Launch the J7Z setup executable file and follow the installation instructions
 
 ----
 
@@ -108,13 +90,10 @@ Go to the {{{$(HOME)/.config/Thunar/}}} directory.  Replace your existing {{{uca
 
 === Uninstall ===
 
-  * Please thoroughly check the 'Makefile' for scripting errors before proceeding because I'm not a Linux expert.  It was written by hand and is not guaranteed to protect your data.
-  * Proceed with the following commands only if you are certain that this 'Makefile' will not damage your data in any way.  Use it at your own risk.
-
 ==== System ====
 {{{
 cd Build
-make uninstall
+sudo make uninstall
 }}}
 
 ==== User ====
@@ -128,4 +107,4 @@ make uninstall-user
 === Uninstall ===
 
 ==== System ====
-Start Menu --> All Programs --> Archiving --> #7Z --> UnInstall
+Start Menu --> All Programs --> Archiving --> J7Z --> UnInstall
