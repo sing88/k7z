@@ -8,6 +8,22 @@
 
 ----
 
+= 1.1.5 =
+
+== All ==
+
+  * Unlocked two more modern 7-Zip compression algorithms
+
+== Linux ==
+
+  * Nautilus and Thunar context menus install at runtime
+
+== Windows ==
+
+  * Start menu entry no longer requires file associations
+
+----
+
 = 1.1.0 =
 
 == All ==
