@@ -43,8 +43,8 @@
   * Show icons with the menu entries along the menu-bar's top level
   * Keep adjusting the tab ordering, after modifying the forms
   * Once the P7Zip/7-Zip stdout issue is fixed
-    * Perhaps call the DLLs directly to achieve this
     * Smooth progress bar, percentage listed in titlebar
+    * Perhaps call the DLLs directly to achieve this
     * This was partly solved by the existence of the new 7zG executable
   * Extract '.tar.gz' and '.tar.bz2' archives twice to prevent seeing the '.tar' afterwards
   * Nahuel's suggestions:
