@@ -33,6 +33,12 @@
   * Some of them are not free software, so read their licenses carefully.
   * Let me know if you find other good skins and I'll add them to the list.
 
+== Good ==
+
+  * JTattoo - 590 KiB - [http://www.jtattoo.net/Download.html Website]
+  * Substance - 1.81 MiB - [http://repo1.maven.org/maven2/com/github/insubstantial/ Website]
+  * Synthetica - 580+ KiB - [http://www.jyloo.com/synthetica/themes/ Website]
+
 == Decent ==
 
   * EaSynth - 90 KiB - [http://www.easynth.com/freewares/EaSynthLookAndFeel.html Website]
@@ -40,9 +46,3 @@
   * NimROD - 215 KiB - [http://personales.ya.com/nimrod/index-en.html Website]
   * Office - 105 KiB - [http://fifesoft.com/officelnfs/ Website]
   * PagoSoft - 160 KiB - [http://www.pagosoft.com/projects/pgslookandfeel/ Website]
-
-== Good ==
-
-  * JTattoo - 590 KiB - [http://www.jtattoo.net/Download.html Website]
-  * Substance - 1.81 MiB - [http://repo1.maven.org/maven2/com/github/insubstantial/ Website]
-  * Synthetica - 580+ KiB - [http://www.jyloo.com/synthetica/themes/ Website]
