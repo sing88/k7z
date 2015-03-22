@@ -43,6 +43,6 @@
 
 == Good ==
 
-  * JTattoo - 590 KiB - [http://www.jtattoo.net/ Website]
-  * Substance - 1.81 MiB - [http://java.net/projects/substance/ Website]
-  * Synthetica - 580+ KiB - [http://www.jyloo.com/synthetica/ Website]
+  * JTattoo - 590 KiB - [http://www.jtattoo.net/Download.html Website]
+  * Substance - 1.81 MiB - [http://repo1.maven.org/maven2/com/github/insubstantial/ Website]
+  * Synthetica - 580+ KiB - [http://www.jyloo.com/synthetica/themes/ Website]
